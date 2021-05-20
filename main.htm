@@ -1,0 +1,159 @@
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<HEAD>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Matthias Edler-Golla, wachenfeld-golla.de" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="pragram" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+
+
+    <style type="text/css">
+        body {
+            // background-image: url(img/default.jpg); 
+            background: gray;
+            background-size: 100%;
+            -moz-user-select: none;
+            /*ff*/
+            -webkit-user-select: none;
+            /*webkit*/
+            -ms-user-select: none;
+            /*IE10*/
+            -khtml-user-select: none;
+            /*old*/
+            user-select: none;
+        }
+        
+        #wrap {
+            position: relative;
+            margin: auto;
+        }
+        
+        #main {
+            position: relative;
+            //margin: auto;
+            padding: 0;
+            top: 0;
+            left: 0;
+            background-color: white;
+            //border:1px solid red;
+        }
+        
+        .textCenter {
+            //MARGIN-LEFT: auto;
+            vertical-align: middle;
+            text-align: center;
+            //word-wrap:break-word;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    </style>
+    <link href="js/jqueryui/jqueryui.css" rel="stylesheet" type="text/css" />
+    <link href="css/nav.css" rel="stylesheet" type="text/css" />
+    <!-- this script helps older IE versions to understand html5 -->
+    <!--[if lt IE 9 ]>
+            <script src="js/html5.js"></script>
+        <![endif]-->
+    <script type="text/javascript" src="/js/utility.js?rdm=162147881"></script>
+    <script type="text/javascript" src="/js/storage.js?rdm=162147881"></script>
+    <script type="text/javascript" src="/js/bigint.js?rdm=162147881"></script>
+    <script type="text/javascript" src="/js/encrypt.js?rdm=162147881"></script>
+    <script type="text/javascript" src="/js/ajax.js?rdm=162147881"></script>
+    <script type="text/javascript" src="/js/login.js?rdm=162147881"></script>
+    <script type="text/javascript" src="/js/pagecommon.js?rdm=162147881"></script>
+    <script type="text/javascript" src="/js/binding.js?rdm=162147881"></script>
+    <script type="text/javascript" src="js/jquery.js?rdm=162147881"></script>
+    <script type="text/javascript" src="js/jqueryui/jqueryui.js?rdm=162147881"></script>
+    <script type="text/javascript" src="js/map.js?rdm=162147881"></script>
+    <script type="text/javascript" src="js/echart.js?rdm=162147881"></script>
+    <script type="text/javascript" src="js/render.js?rdm=162147881"></script>
+
+
+</HEAD>
+
+<BODY onload="loadPage()">
+    <div style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 1000; background-color:gray;opacity: 0.98;" id="loadingDiv">
+        <p style="position: relative;text-align: center;color:white;top: 45%;" class="blink">LOADING...</p>
+    </div>
+    <DIV id="wrap">
+        <div id="main" onclick="renderJs.hideMenu()" prefix="Siemens" style="width: 1900px; height: 1060px;">
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 566px; top: 165px; width: 71px; height: 59px; background-size: 71px 60px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/pb_stop.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 3; background-repeat: no-repeat no-repeat;"
+                range="129" address="0" type="1" length="1" on_text="FALLA" off_text="OFF" id="461282ada40a7b641dc2" show_param="461282ada40a7b641dc2" degree="0" tag_id="Private Tag" device_name="" on_image="img/pb_go.png" off_image="img/pb_stop.png" bg_image="img/pb_stop.png"
+                mode="false" text_align="center">
+                <p style="width: 71px; height: 59px; display: table-cell; vertical-align: middle; text-align: center;">OFF</p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 566px; top: 332px; width: 71px; height: 59px; background-size: 71px 60px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/pb_stop.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 4; background-repeat: no-repeat no-repeat;"
+                range="129" address="1" type="1" length="1" on_text="FALLA" off_text="OFF" id="485486eb5f017f6c8938" show_param="485486eb5f017f6c8938" degree="0" tag_id="Private Tag" device_name="" on_image="img/pb_go.png" off_image="img/pb_stop.png" bg_image="img/pb_stop.png"
+                mode="false" text_align="center">
+                <p style="width: 71px; height: 59px; display: table-cell; vertical-align: middle; text-align: center;">OFF</p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 1098px; top: 165px; width: 71px; height: 59px; background-size: 71px 60px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/pb_stop.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 5; background-repeat: no-repeat no-repeat;"
+                range="129" address="2" type="1" length="1" on_text="FALLA" off_text="OFF" id="4cb48140ac09ef7ffa44" show_param="4cb48140ac09ef7ffa44" degree="0" tag_id="Private Tag" device_name="" on_image="img/pb_go.png" off_image="img/pb_stop.png" bg_image="img/pb_stop.png"
+                mode="false" text_align="center">
+                <p style="width: 71px; height: 59px; display: table-cell; vertical-align: middle; text-align: center;">OFF</p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 1112px; top: 354px; width: 71px; height: 59px; background-size: 71px 60px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/pb_stop.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 6; background-repeat: no-repeat no-repeat;"
+                range="129" address="3" type="1" length="1" on_text="FALLA" off_text="OFF" id="4da2a582a2efceb83a7b" show_param="4da2a582a2efceb83a7b" degree="0" tag_id="Private Tag" device_name="" on_image="img/pb_go.png" off_image="img/pb_stop.png" bg_image="img/pb_stop.png"
+                mode="false" text_align="center">
+                <p style="width: 71px; height: 59px; display: table-cell; vertical-align: middle; text-align: center;">OFF</p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 804px; top: 602px; width: 71px; height: 59px; background-size: 71px 60px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/pb_stop.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 7; background-repeat: no-repeat no-repeat;"
+                range="129" address="4" type="1" length="1" on_text="FALLA" off_text="OFF" id="412fb50e3bcc940bc904" show_param="412fb50e3bcc940bc904" degree="0" tag_id="Private Tag" device_name="" on_image="img/pb_go.png" off_image="img/pb_stop.png" bg_image="img/pb_stop.png"
+                mode="false" text_align="center">
+                <p style="width: 71px; height: 59px; display: table-cell; vertical-align: middle; text-align: center;">OFF</p>
+            </div>
+            <div comp_type="ImageComponent" style="background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/AEEB077C.png); background-size: 93px 156px; position: absolute; left: 1185px; top: 124px; width: 93px; height: 155px; transform: rotate(0deg); z-index: 8; background-repeat: no-repeat no-repeat;"
+                bg_image="img/AEEB077C.png" id="47acbb4ab2ac560bf263" degree="0"></div>
+            <div comp_type="ImageComponent" style="background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/3D53040E.png); background-size: 103px 112px; position: absolute; left: 965px; top: 576px; width: 103px; height: 111px; transform: rotate(0deg); z-index: 9; background-repeat: no-repeat no-repeat;"
+                bg_image="img/3D53040E.png" id="4de59b12580348f3831a" degree="0"></div>
+            <div comp_type="ImageComponent" style="background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/303F02A8.png); background-size: 108px 160px; position: absolute; left: 1197px; top: 309px; width: 108px; height: 159px; transform: rotate(0deg); z-index: 10; background-repeat: no-repeat no-repeat;"
+                bg_image="img/303F02A8.png" id="465191080e5d5a18b568" degree="0"></div>
+            <div comp_type="ImageComponent" style="background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/D0C86FE4.png); background-size: 135px 210px; position: absolute; left: 587px; top: 538px; width: 135px; height: 209px; transform: rotate(0deg); z-index: 11; background-repeat: no-repeat no-repeat;"
+                bg_image="img/D0C86FE4.png" id="44429380e709920e51d5" degree="0"></div>
+            <div comp_type="ImageComponent" style="background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/AB48F482.png); background-size: 79px 83px; position: absolute; left: 682px; top: 142px; width: 79px; height: 82px; transform: rotate(0deg); z-index: 12; background-repeat: no-repeat no-repeat;"
+                bg_image="img/AB48F482.png" id="450c83db608fe2f06878" degree="0"></div>
+            <div comp_type="ImageComponent" style="background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/271317D1.png); background-size: 84px 85px; position: absolute; left: 682px; top: 316px; width: 84px; height: 84px; transform: rotate(0deg); z-index: 13; background-repeat: no-repeat no-repeat;"
+                bg_image="img/271317D1.png" id="4496a3256f1e1a872a88" degree="0"></div>
+            <div class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 873px; top: 18px; width: 501px; height: 41px; background-size: 501px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 36px; color: rgb(0, 0, 0); z-index: 14; font-weight: bold; background-repeat: no-repeat no-repeat;"
+                id="49a2b13e1810268db9e6" degree="0" text_align="center">
+                <p style="display: table-cell; vertical-align: middle; text-align: center; width: 501px; height: 41px;">CALDERA UCENTRAL</p>
+            </div>
+            <div comp_type="RectangleComponent" style="border: 1px solid rgb(0, 0, 0); position: absolute; left: 515px; top: 87px; width: 1175px; height: 680px; background-size: 1175px 681px; transform: rotate(0deg); zoom: 1; opacity: 1; z-index: 2; background-color: rgb(0, 102, 102); background-repeat: no-repeat no-repeat;"
+                id="41df8fa9ea1ee2da827c" degree="0"></div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 789px; top: 132px; width: 279px; height: 104px; background-size: 279px 105px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/1AFA9879.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(255, 255, 255); z-index: 15; background-repeat: no-repeat no-repeat;"
+                range="129" address="0" type="1" length="1" on_text="FALLA BOMBA<br/><br/>REVISAR RED ELECTRICA      <br/>REV FILTROS    <br/>REV IMPULSOR   <br/>REV RED FLUIDOS" off_text="" id="4a8db1ec00955c1e7efd" show_param="4a8db1ec00955c1e7efd" degree="0"
+                tag_id="Private Tag" device_name="" on_image="img/1AFA9879.png" off_image="img/1AFA9879.png" bg_image="img/1AFA9879.png" mode="false" text_align="left">
+                <p style="width: 279px; height: 104px; display: table-cell; vertical-align: middle; text-align: left;"></p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 794px; top: 309px; width: 279px; height: 104px; background-size: 279px 105px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/1AFA9879.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(255, 255, 255); z-index: 16; background-repeat: no-repeat no-repeat;"
+                range="129" address="1" type="1" length="1" on_text="PARADA EMERGENCIA<br/><br/>REVISAR BOTON   <br/>EXTRAERLO      <br/>REVISAR SEÑAL   ELECTRICA       <br/>REEMPLAZAR BOTON" off_text="" id="4d229ef046d07ba9f3ed" show_param="4d229ef046d07ba9f3ed"
+                degree="0" tag_id="Private Tag" device_name="" on_image="img/1AFA9879.png" off_image="img/1AFA9879.png" bg_image="img/1AFA9879.png" mode="false" text_align="left">
+                <p style="width: 279px; height: 104px; display: table-cell; vertical-align: middle; text-align: left;"></p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 1343px; top: 149px; width: 279px; height: 104px; background-size: 279px 105px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/1AFA9879.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(255, 255, 255); z-index: 17; background-repeat: no-repeat no-repeat;"
+                range="129" address="2" type="1" length="1" on_text="BAJO NIVEL AGUA<br/><br/>REVISAR TANQUE<br/> REVISAR VALVULAS<br/>REVISAR ENCEND. BOMBA          <br/> REVISAR FLUJO" off_text="" id="4bea95e751cee2b2c2e3" show_param="4bea95e751cee2b2c2e3"
+                degree="0" tag_id="Private Tag" device_name="" on_image="img/1AFA9879.png" off_image="img/1AFA9879.png" bg_image="img/1AFA9879.png" mode="false" text_align="left">
+                <p style="width: 279px; height: 104px; display: table-cell; vertical-align: middle; text-align: left;"></p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 1343px; top: 297px; width: 279px; height: 104px; background-size: 279px 105px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/1AFA9879.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(255, 255, 255); z-index: 18; background-repeat: no-repeat no-repeat;"
+                range="129" address="3" type="1" length="1" on_text="BAJO NIVEL COMBUSTIBLE<br/><br/>REVISAR NIVEL  TANQUE           <br/>REVI VALVULAS    <br/>REVI BOMBA PREND <br/>REVI CIRCUITO ELECTRICO" off_text="" id="4081a44186977366eb75" show_param="4081a44186977366eb75"
+                degree="0" tag_id="Private Tag" device_name="" on_image="img/1AFA9879.png" off_image="img/1AFA9879.png" bg_image="img/1AFA9879.png" mode="false" text_align="left">
+                <p style="width: 279px; height: 104px; display: table-cell; vertical-align: middle; text-align: left;"></p>
+            </div>
+            <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 1112px; top: 579px; width: 279px; height: 104px; background-size: 279px 105px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/1AFA9879.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(255, 255, 255); z-index: 19; background-repeat: no-repeat no-repeat;"
+                range="129" address="4" type="1" length="1" on_text="FALLA QUEMADOR<br/><br/>REVISAR CIRCUITO<br/>REVISAR LENTE<br/>REV ELECTRODOS<br/>REV VENTILADOR  <br/>REV COMBUSTIBLE" off_text="" id="4a46b7fc86f93863e448" show_param="4a46b7fc86f93863e448"
+                degree="0" tag_id="Private Tag" device_name="" on_image="img/1AFA9879.png" off_image="img/1AFA9879.png" bg_image="img/1AFA9879.png" mode="false" text_align="left">
+                <p style="width: 279px; height: 104px; display: table-cell; vertical-align: middle; text-align: left;"></p>
+            </div>
+        </div>
+    </DIV>
+    <div id='timeout_dlg' style='display: none'>Please check the network connection!</div>
+</BODY>
+
+</HTML>
