@@ -2,5 +2,28 @@
 <TagRef>
     <PageRefs>
         <PageVm page="page_1"/>
+        <PageVm page="main">
+            <TagComp compId="48d595fcac723d979cc6" tagId="a1cd1609-abe9-45e0-b06b-9c06edbf9311"/>
+            <TagComp compId="45ff9e5a65e00b0e03e3" tagId="bf13377c-f74c-47f8-9376-568cf4a971c4"/>
+            <TagComp compId="488988fbb9b2b749750b" tagId="31660e67-a278-4432-a19f-e9a33db55ad1"/>
+            <TagComp compId="4936a1f028a1f0bc1c8b" tagId="ea84b732-9dcc-4ac5-a30c-e8c003591268"/>
+            <TagComp compId="475c95e884d6df355dc7" tagId="697ecf26-a146-4c69-bc8a-73887ae34ec5"/>
+            <TagComp compId="4082be150733ee85b10d" tagId="217adff0-873c-4d14-bd0a-85cdc963e526"/>
+            <TagComp compId="4908b88666475fb8a8a5" tagId="354a3285-8ee1-4b82-86d6-7b6f52810ebb,32a8e489-9c03-4519-bbac-5be3af9859c8"/>
+            <TagComp compId="422fa61856a36c275a30" tagId="5b31d801-5a18-4289-beef-76e1c9e752dc"/>
+            <TagComp compId="4e209043e78d615c62e5" tagId="b7e773ff-a067-4172-bbdb-69ef4dd6f2c0"/>
+            <TagComp compId="481cad6ae20762e72da0" tagId="6efb40c5-5f3a-4216-932c-eb3998e1d612"/>
+            <TagComp compId="426787bf0729490bfd86" tagId="3178b7d0-8093-4f06-bf79-465d023c0a54"/>
+            <TagComp compId="485780a5161d9459450b" tagId="62438f26-fea3-4b74-86d8-6aa531645242"/>
+            <TagComp compId="4ddb9a597b87c042f5da" tagId="bc28f8b6-733b-4697-b9c4-6274e800287b"/>
+            <TagComp compId="4708a4abecdbc897984f" tagId="de5a01bf-d13b-49d8-be55-80c104b6f623"/>
+            <TagComp compId="4dd695d26172552d7e66" tagId="108b2fd1-d4a0-4a30-a813-11e4ab632023"/>
+            <TagComp compId="4a359dbbbc12cc382620" tagId="76da7ee7-02ff-4eca-878e-6ca13271d4b8"/>
+            <TagComp compId="4320bf80b4d7fc283cc8" tagId="354a3285-8ee1-4b82-86d6-7b6f52810ebb"/>
+            <TagComp compId="435d96d44be859ded7b5" tagId="fc4de1b9-1e74-43aa-b9e9-0d850b020423"/>
+            <TagComp compId="466eb7bb451ffec96cfe" tagId="217adff0-873c-4d14-bd0a-85cdc963e526,379b71e9-da78-4c01-9526-0c65a2b9d714,70c07897-ed34-4c09-9352-c2f200654b22,ea84b732-9dcc-4ac5-a30c-e8c003591268,bf13377c-f74c-47f8-9376-568cf4a971c4,76da7ee7-02ff-4eca-878e-6ca13271d4b8"/>
+            <TagComp compId="4eaabc9a0af9607d475d" tagId="379b71e9-da78-4c01-9526-0c65a2b9d714"/>
+            <TagComp compId="437f9cffabeba7718627" tagId="70c07897-ed34-4c09-9352-c2f200654b22"/>
+        </PageVm>
     </PageRefs>
 </TagRef>

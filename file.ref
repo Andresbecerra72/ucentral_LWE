@@ -2,5 +2,6 @@
 <Reference>
     <Pages>
         <Page pageName="page_1"/>
+        <Page pageName="main"/>
     </Pages>
 </Reference>

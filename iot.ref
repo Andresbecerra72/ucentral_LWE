@@ -2,5 +2,9 @@
 <TagRef>
     <PageRefs>
         <PageVm page="page_1"/>
+        <PageVm page="main">
+            <TagComp compId="466eb7bb451ffec96cfe" tagId="Local Device,Local Device,Local Device,Local Device,Local Device,Local Device"/>
+            <TagComp compId="4908b88666475fb8a8a5" tagId="Local Device,Local Device"/>
+        </PageVm>
     </PageRefs>
 </TagRef>

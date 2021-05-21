@@ -1,2 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <tVariableTable>
+    <variables>
+        <id>bc28f8b6-733b-4697-b9c4-6274e800287b</id>
+        <name>count bomba</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="32">4</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>a1cd1609-abe9-45e0-b06b-9c06edbf9311</id>
+        <name>count  parada emer</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="64">8</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>31660e67-a278-4432-a19f-e9a33db55ad1</id>
+        <name>count low level water</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="96">12</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>6efb40c5-5f3a-4216-932c-eb3998e1d612</id>
+        <name>count low level fuel</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="128">16</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>de5a01bf-d13b-49d8-be55-80c104b6f623</id>
+        <name>count burner</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="160">20</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>354a3285-8ee1-4b82-86d6-7b6f52810ebb</id>
+        <name>count total</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="0">0</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>217adff0-873c-4d14-bd0a-85cdc963e526</id>
+        <name>time mantto B030</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="192">24</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>5b31d801-5a18-4289-beef-76e1c9e752dc</id>
+        <name>time mantto B031</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="224">28</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>379b71e9-da78-4c01-9526-0c65a2b9d714</id>
+        <name>time mantto B041</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="256">32</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>b7e773ff-a067-4172-bbdb-69ef4dd6f2c0</id>
+        <name>time mantto B042</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="288">36</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>70c07897-ed34-4c09-9352-c2f200654b22</id>
+        <name>time mantto B043</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="320">40</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>fc4de1b9-1e74-43aa-b9e9-0d850b020423</id>
+        <name>time mantto B044</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="352">44</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>ea84b732-9dcc-4ac5-a30c-e8c003591268</id>
+        <name>time mantto B045</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="384">48</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>697ecf26-a146-4c69-bc8a-73887ae34ec5</id>
+        <name>time mantto B046</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="416">52</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>bf13377c-f74c-47f8-9376-568cf4a971c4</id>
+        <name>time mantto B047</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="448">56</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>62438f26-fea3-4b74-86d8-6aa531645242</id>
+        <name>time mantto B048</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="480">60</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>76da7ee7-02ff-4eca-878e-6ca13271d4b8</id>
+        <name>time mantto B049</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="512">64</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>108b2fd1-d4a0-4a30-a813-11e4ab632023</id>
+        <name>time mantto B050</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="544">68</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>994a1d3c-0bd1-4189-94f0-0e8b4c332ace</id>
+        <name>B001</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="576">72</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>3178b7d0-8093-4f06-bf79-465d023c0a54</id>
+        <name>crono B029</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VD</blockType>
+        <blockNum realvalue="608">76</blockNum>
+        <type realvalue="6">DWord</type>
+        <length realvalue="1">1</length>
+    </variables>
 </tVariableTable>
