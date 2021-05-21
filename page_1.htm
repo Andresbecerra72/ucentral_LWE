@@ -90,6 +90,7 @@
                 id="4ed890abb3562f42b424" degree="0" text_align="center">
                 <p style="display: table-cell; vertical-align: middle; text-align: center; width: 501px; height: 41px;">Test Page</p>
             </div>
+
             <div comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 479px; top: 248px; width: 71px; height: 59px; background-size: 71px 60px; transform: rotate(0deg); background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/pb_stop.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 4; background-repeat: no-repeat no-repeat;"
                 range="129" address="0" type="1" length="1" on_text="FALLA" off_text="OFF" id="49d191ffca718de55e5c" show_param="49d191ffca718de55e5c" degree="0" tag_id="Private Tag" device_name="" on_image="img/pb_go.png" off_image="img/pb_stop.png" bg_image="img/pb_stop.png"
                 mode="false" text_align="center">
@@ -98,28 +99,88 @@
             <div comp_type="ImageComponent" style="background-image: url(file:///C:/Users/ANDRES/Documents/ABSOFTWARE/UniversidadCentral/Proyectos%20PLCs/LWE%20caldera/img/AB48F482.png); background-size: 79px 83px; position: absolute; left: 622px; top: 230px; width: 79px; height: 82px; transform: rotate(0deg); z-index: 5; background-repeat: no-repeat no-repeat;"
                 bg_image="img/AB48F482.png" id="448ca7c6791cd11809a4" degree="0"></div>
 
+
             <button type="button" onclick="post_data('49d191ffca718de55e5c')">Try it</button>
+
+
+
             <!-- **** script ***  -->
 
             <script>
-                $(function() {
-                    console.log("Ha ocurrido document.ready: documento listo");
-                });
+                function storeIdent() {
 
-                $(window).on("load", function() {
-                    console.log("Ha ocurrido window.load: ventana lista");
+                    localStorage.setItem('I1', '');
+                    localStorage.setItem('I1', '');
+                    localStorage.setItem('I1', '');
+                    localStorage.setItem('I1', '');
+                    localStorage.setItem('I1', '');
 
-                    localStorage.setItem('name', 'Juan');
-
-                    setInterval(post_data("49d191ffca718de55e5c"), 5000); //1000
+                }
 
 
-                });
 
+                function observer() {
+
+                    const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+
+                    var allElements = document.querySelectorAll('*');
+                    for (var i = 0; i < allElements.length; i++) {
+                        if (allElements[i].hasAttribute("class")) {
+                            console.log(allElements[i].className);
+                            if (allElements[i].className.includes("server_binding")) {
+                                console.log("I see the class"); // TODO ***
+                            }
+                        }
+                    }
+
+                    // target
+                    const list = document.getElementById("49d191ffca718de55e5c");
+                    // options
+                    const config = {
+                        attributes: true,
+                        childList: false,
+                        characterData: false,
+                        subtree: false,
+                    };
+
+
+                    // instance
+                    const observer = new MutationObserver(function(mutations) {
+                        // console.log(`mutations =`, mutations); // MutationRecord
+                        mutations.forEach(function(mutation) {
+                            // console.log("mutation =", mutation);
+                            if (mutation.type === "characterData") {
+                                // console.log("characterData");
+                            }
+                            if (mutation.type === "childList") {
+                                // console.log("childList");
+                            }
+                            if (mutation.type === "attributes") {
+                                console.log("mutation =", mutation);
+                                console.log("mutation.target =", mutation.target);
+                                console.log("mutation.target.value =", mutation.target.value);
+                                console.log(`The \`${mutation.attributeName}\` attribute was modified.`);
+
+                                localStorage.setItem('value', String(mutation.target.value)); // TODO ***
+
+                            }
+                        });
+                    });
+
+
+                    // const observer = new MutationObserver(mutation => {
+                    //     console.log('DOM mutation detected');
+                    // });
+
+                    observer.observe(list, config);
+
+                }
+
+
+                // envia los datos al DB
                 function post_data(id) {
 
 
-                    var formData = new FormData();
 
                     console.log("ID: ", id);
 
@@ -144,10 +205,28 @@
                     //     alert(http.responseText)
                     // }
 
+                    // setTimeout(post_data("49d191ffca718de55e5c"), 30000);
 
                 }
 
-                post_data("49d191ffca718de55e5c");
+                // post_data("49d191ffca718de55e5c");
+
+
+
+
+
+
+
+                window.onload = function() {
+
+
+
+
+
+
+                    post_data("49d191ffca718de55e5c");
+                    observer();
+                };
             </script>
 
 
