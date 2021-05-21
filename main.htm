@@ -2012,7 +2012,184 @@
 
 </svg>
 
-            <svg comp_type="LineComponent" id="403bab1156c6b7f9e704" version="1.1" baseProfile="tiny" width="100%" height="100%" style="position: absolute; top: 0px; left: 0px; z-index: 107;pointer-events: none"><g>    <polyline fill="none" stroke="rgb(255,255,255)" stroke-width="1" stroke-dasharray="0" filter="Alpha(opacity=100)" opacity="1" points="9,116 1893,118 " stroke-linecap="round"></polyline></g></svg></div>
+            <svg comp_type="LineComponent" id="403bab1156c6b7f9e704" version="1.1" baseProfile="tiny" width="100%" height="100%" style="position: absolute; top: 0px; left: 0px; z-index: 107;pointer-events: none"><g>    <polyline fill="none" stroke="rgb(255,255,255)" stroke-width="1" stroke-dasharray="0" filter="Alpha(opacity=100)" opacity="1" points="9,116 1893,118 " stroke-linecap="round"></polyline></g></svg>
+
+            <!-- **** script ***  -->
+
+            <script>
+                // almacenando IDs en Local store
+                function storeIdent() {
+
+                    // Fallas - Inputs
+                    localStorage.setItem('I1', '461282ada40a7b641dc2');
+                    localStorage.setItem('I2', '485486eb5f017f6c8938');
+                    localStorage.setItem('I3', '4cb48140ac09ef7ffa44');
+                    localStorage.setItem('I4', '4da2a582a2efceb83a7b');
+                    localStorage.setItem('I5', '412fb50e3bcc940bc904');
+
+                    // mantto - Inputs
+                    localStorage.setItem('I6', '437c9a6bbd1531e9a931');
+                    localStorage.setItem('I7', '44d3bfa0dd0ba3ce5809');
+
+
+                    setTimeout(monitoreStore(), 5000);
+
+                }
+
+
+
+
+
+                function monitoreStore() {
+
+                    var I1 = localStorage.getItem('I1');
+                    var I2 = localStorage.getItem('I2');
+                    var I3 = localStorage.getItem('I3');
+                    var I4 = localStorage.getItem('I4');
+                    var I5 = localStorage.getItem('I5');
+
+                    if (I1) {
+                        observer(I1);
+                    }
+                    if (I2) {
+                        observer(I2);
+                    }
+                    if (I3) {
+                        observer(I3);
+                    }
+                    if (I4) {
+                        observer(I4);
+                    }
+                    if (I5) {
+                        observer(I5);
+                    }
+
+
+
+
+                }
+
+
+                function getElementValue(id) {
+
+                    var oRequest = new DBRequest(document.getElementById(id));
+                    console.log("Element ID ", id);
+                    console.log("Element value ", oRequest.m_oSrcElement.value);
+
+                    localStorage.setItem(String(id), String(oRequest.m_oSrcElement.value));
+
+                }
+
+
+
+                function observer(id) {
+
+                    getElementValue(id); // almaceno el valor actual del elemento
+
+                    const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+
+                    // target
+                    const elementDOM = document.getElementById(id);
+                    // options
+                    const config = {
+                        attributes: true,
+                        childList: false,
+                        characterData: false,
+                        subtree: false,
+                    };
+
+
+                    // instance
+                    const observer = new MutationObserver(function(mutations) {
+                        // console.log(`mutations =`, mutations); // MutationRecord
+                        mutations.forEach(function(mutation) {
+
+                            if (mutation.type === "attributes") {
+                                console.log("mutation =", mutation);
+                                console.log("mutation.target =", mutation.target);
+                                console.log("mutation.target.value =", mutation.target.value);
+
+                                if (String(mutation.target.value) !== localStorage.getItem(String(id))) {
+
+                                    localStorage.setItem(String(id), String(mutation.target.value));
+
+                                    post_data(id, mutation.target.value, "TODO: **");
+
+                                }
+
+                            }
+                        });
+                    });
+
+
+                    // const observer = new MutationObserver(mutation => {
+                    //     console.log('DOM mutation detected');
+                    // });
+
+                    observer.observe(elementDOM, config);
+
+                }
+
+
+                // envia los datos al DB
+                function post_data(id, value, message) {
+
+                    console.log("POST ID: ", id);
+
+                    const params = {
+                        name: id,
+                        count: value,
+                        message: message
+                    }
+
+
+                    var http = new XMLHttpRequest();
+                    http.open("POST", "http://localhost/ucentral-API/fails");
+                    http.setRequestHeader('Content-type', 'application/json');
+                    http.setRequestHeader('Authorization', 'Basic NzBlYzZmYTRkNmVlMmEyZWFlZDRhODA5NmFiYTJlYWE6M2NlODBmZDA3ZGI2ZTRjYzcyZDE3NDQ5YWIxMzllYjU=');
+                    http.send(JSON.stringify(params));
+                    // http.onload = function() {                        
+                    //     alert(http.responseText)
+                    // }
+
+                    // setTimeout(post_data("49d191ffca718de55e5c"), 30000);
+
+                }
+
+                // post_data("49d191ffca718de55e5c");
+
+
+                window.onload = function() {
+
+                    storeIdent();
+
+                };
+
+
+                /*
+                 var allElements = document.querySelectorAll('*');
+                    for (var i = 0; i < allElements.length; i++) {
+                        if (allElements[i].hasAttribute("class")) {
+                            console.log(allElements[i].className);
+                            if (allElements[i].className.includes("server_binding")) {
+                                console.log("I see the class"); // TODO ***
+                            }
+                        }
+                    }
+
+                    var oRequest = new DBRequest(document.getElementById(id));
+                    console.log("AQUI oRequest: ", oRequest);
+                    console.log("AQUI oRequest.m_oSrcElement: ", oRequest.m_oSrcElement);
+                    console.log("AQUI oRequest.m_oSrcElement.value: ", oRequest.m_oSrcElement.value);
+
+                */
+            </script>
+
+
+
+            <!-- *** END div main *** -->
+
+        </div>
     </DIV>
     <div id='timeout_dlg' style='display: none'>Please check the network connection!</div>
 </BODY>
