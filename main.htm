@@ -2031,9 +2031,6 @@
                     // Fallas - Contadores
                     localStorage.setItem('B005', 'inputVal invalid4320bf80b4d7fc283cc8'); // class
 
-
-
-
                     // mantto - Inputs
                     localStorage.setItem('I6', '437c9a6bbd1531e9a931');
                     localStorage.setItem('I7', '44d3bfa0dd0ba3ce5809');
@@ -2055,26 +2052,37 @@
 
                     var B005 = localStorage.getItem('B005');
 
+                    var I6 = localStorage.getItem('I6');
+                    var I7 = localStorage.getItem('I7');
 
-
+                    // Fails - inputs
                     if (I1) {
-                        observerByID(I1);
+                        observerByID(I1, "flag_Fail");
                     }
                     if (I2) {
-                        observerByID(I2);
+                        observerByID(I2, "flag_Fail");
                     }
                     if (I3) {
-                        observerByID(I3);
+                        observerByID(I3, "flag_Fail");
                     }
                     if (I4) {
-                        observerByID(I4);
+                        observerByID(I4, "flag_Fail");
                     }
                     if (I5) {
-                        observerByID(I5);
+                        observerByID(I5, "flag_Fail");
                     }
                     if (B005) {
                         observerByClass(B005); // contador total fallas
                     }
+
+                    // Mantenimiento - inputs
+                    if (I6) {
+                        observerByID(I6, "flag_Matto"); // selector llave
+                    }
+                    if (I7) {
+                        observerByID(I7, "flag_Mantto"); // caldera RUN
+                    }
+
 
 
 
@@ -2137,10 +2145,10 @@
                             name = "FALLA QUEMADOR";
                             break;
                         case localStorage.getItem('I6'):
-                            name = "---";
+                            name = "SELECTOR LLAVE";
                             break;
                         case localStorage.getItem('I7'):
-                            name = "---";
+                            name = "CALDERA RUN";
                             break;
                         case localStorage.getItem('B005'):
                             name = "TOTAL FALLAS";
@@ -2231,10 +2239,55 @@
 
 
                 }
+                // funcion para definir el Event - mantto
+                function get_Event(id) {
+
+                    let event = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I6'):
+                            event = "I6";
+                            break;
+                        case localStorage.getItem('I7'):
+                            event = "I7";
+                            break;
+                        case "0000":
+                            event = "---";
+                    }
+
+
+                    return event;
+
+
+
+                }
+                // funcion para definir el Description - mantto
+                function get_Description(id) {
+
+                    let description = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I6'):
+                            description = "I6-DESCRIPTION";
+                            break;
+                        case localStorage.getItem('I7'):
+                            description = "I7-DESCRIPTION";
+                            break;
+                        case "0000":
+                            description = "---";
+                    }
+
+
+                    return description;
+
+
+
+                }
 
                 // --------------------------------------------------------------------------------------------------------------------
                 // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY ID
-                function observerByID(id) {
+                // --------------------------------------------------------------------------------------------------------------------
+                function observerByID(id, flag) {
 
                     getElementValue(id); // almacena el valor actual del elemento
 
@@ -2268,7 +2321,23 @@
                                         const message = get_Message(String(id));
                                         const count = get_Count(String(id));
 
-                                        post_data(name, count, message);
+                                        if (flag === "flag_Fail") {
+
+                                            post_data_fails(name, count, message);
+
+                                        }
+
+                                        if (flag === "flag_Mantto") {
+
+                                            const event = get_Event(String(id));
+                                            const description = get_Description(String(id));
+
+                                            post_data_mantto(name, count, message, event, description);
+
+                                        }
+
+
+
 
                                     }
 
@@ -2281,8 +2350,9 @@
                     observer.observe(elementDOM, config);
 
                 }
-
+                // --------------------------------------------------------------------------------------------------------------------
                 // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY Clase
+                // --------------------------------------------------------------------------------------------------------------------
                 function observerByClass(clase) {
 
 
@@ -2315,10 +2385,7 @@
                                     const name = get_Name(String(clase));
                                     const message = get_Message(String(clase));
 
-
-                                    post_data(name, mutation.target.placeholder, message);
-
-
+                                    post_data_fails(name, mutation.target.placeholder, message);
 
                                 }
 
@@ -2331,18 +2398,47 @@
                 }
 
                 // -----------------------------------------------------------------------------------------------------------------
-                // envia los datos al DB
-                function post_data(name, value, message) {
+                // envia los datos al DB - Fallas
+                // -----------------------------------------------------------------------------------------------------------------
+                function post_data_fails(name, value, message) { // POST
 
 
                     const params = {
                         name: name,
                         count: value,
-                        message: message
+                        message: message,
+                        source: "LWE" // fuente
                     }
 
                     var http = new XMLHttpRequest();
-                    http.open("POST", "http://localhost/ucentral-API/fails");
+                    // http.open("POST", "http://localhost/ucentral-API/fails"); // **Pruebas Locales
+                    http.open("POST", "https://www.absoftwaregroup.com/platform/ucentral-API/fails"); // Hosting
+                    http.setRequestHeader('Content-type', 'application/json');
+                    http.setRequestHeader('Authorization', 'Basic NzBlYzZmYTRkNmVlMmEyZWFlZDRhODA5NmFiYTJlYWE6M2NlODBmZDA3ZGI2ZTRjYzcyZDE3NDQ5YWIxMzllYjU=');
+                    http.send(JSON.stringify(params));
+                    // http.onload = function() {                        
+                    //     alert(http.responseText)
+                    // }                   
+
+                }
+                // -----------------------------------------------------------------------------------------------------------------
+                // envia los datos al DB - Matenimientos
+                // -----------------------------------------------------------------------------------------------------------------
+                function post_data_mantto(name, value, message, event, description) { // POST
+
+
+                    const params = {
+                        name: name,
+                        count: value,
+                        message: message,
+                        source: "LWE", // fuente
+                        event: event,
+                        description: description
+                    }
+
+                    var http = new XMLHttpRequest();
+                    // http.open("POST", "http://localhost/ucentral-API/mantto"); // **Pruebas Locales
+                    http.open("POST", "https://www.absoftwaregroup.com/platform/ucentral-API/mantto"); // Hosting
                     http.setRequestHeader('Content-type', 'application/json');
                     http.setRequestHeader('Authorization', 'Basic NzBlYzZmYTRkNmVlMmEyZWFlZDRhODA5NmFiYTJlYWE6M2NlODBmZDA3ZGI2ZTRjYzcyZDE3NDQ5YWIxMzllYjU=');
                     http.send(JSON.stringify(params));
