@@ -577,7 +577,8 @@
 
                 <div class="valueText" style="">
 
-                    <input class="inputVal invalid4320bf80b4d7fc283cc8" type="text" size="5" value="" style="width: 100%; height: 100%; text-align: center; font-style: normal; font-weight: bold; font-family: Arial; font-size: 18px; color: rgb(204, 0, 0);">                    <span class="unit" style="position: absolute; top: 5.5px; font-style: normal; font-weight: bold; font-family: Arial; font-size: 18px; line-height: 18px; color: rgb(204, 0, 0);"></span>
+                    <input class="inputVal invalid4320bf80b4d7fc283cc8" type="text" size="5" value="" style="width: 100%; height: 100%; text-align: center; font-style: normal; font-weight: bold; font-family: Arial; font-size: 18px; color: rgb(204, 0, 0);">
+                    <span class="unit" style="position: absolute; top: 5.5px; font-style: normal; font-weight: bold; font-family: Arial; font-size: 18px; line-height: 18px; color: rgb(204, 0, 0);"></span>
 
                 </div>
 
@@ -2021,11 +2022,17 @@
                 function storeIdent() {
 
                     // Fallas - Inputs
-                    localStorage.setItem('I1', '461282ada40a7b641dc2');
-                    localStorage.setItem('I2', '485486eb5f017f6c8938');
-                    localStorage.setItem('I3', '4cb48140ac09ef7ffa44');
-                    localStorage.setItem('I4', '4da2a582a2efceb83a7b');
-                    localStorage.setItem('I5', '412fb50e3bcc940bc904');
+                    localStorage.setItem('I1', '461282ada40a7b641dc2'); // id
+                    localStorage.setItem('I2', '485486eb5f017f6c8938'); // id
+                    localStorage.setItem('I3', '4cb48140ac09ef7ffa44'); // id
+                    localStorage.setItem('I4', '4da2a582a2efceb83a7b'); // id
+                    localStorage.setItem('I5', '412fb50e3bcc940bc904'); // id
+
+                    // Fallas - Contadores
+                    localStorage.setItem('B005', 'inputVal invalid4320bf80b4d7fc283cc8'); // class
+
+
+
 
                     // mantto - Inputs
                     localStorage.setItem('I6', '437c9a6bbd1531e9a931');
@@ -2046,20 +2053,27 @@
                     var I4 = localStorage.getItem('I4');
                     var I5 = localStorage.getItem('I5');
 
+                    var B005 = localStorage.getItem('B005');
+
+
+
                     if (I1) {
-                        observer(I1);
+                        observerByID(I1);
                     }
                     if (I2) {
-                        observer(I2);
+                        observerByID(I2);
                     }
                     if (I3) {
-                        observer(I3);
+                        observerByID(I3);
                     }
                     if (I4) {
-                        observer(I4);
+                        observerByID(I4);
                     }
                     if (I5) {
-                        observer(I5);
+                        observerByID(I5);
+                    }
+                    if (B005) {
+                        observerByClass(B005); // contador total fallas
                     }
 
 
@@ -2067,12 +2081,35 @@
 
                 }
 
+
+
+                // captura el valor del elemento y lo almacena en localStorage
+                function getElementValueByClass(clase) {
+
+                    var allElements = document.querySelectorAll('*');
+                    for (var i = 0; i < allElements.length; i++) {
+                        if (allElements[i].hasAttribute("class")) {
+                            console.log(allElements[i].className);
+                            if (allElements[i].className.includes(clase)) {
+
+                                // console.log("I see the class", allElements[i]);
+                                localStorage.setItem(String(clase), String(allElements[i].placeholder));
+
+                                return allElements[i];
+
+                            }
+                        }
+                    }
+
+                }
+
+
                 // captura el valor del elemento y lo almacena en localStorage
                 function getElementValue(id) {
 
                     var oRequest = new DBRequest(document.getElementById(id));
-                    console.log("Element ID ", id);
-                    console.log("Element value ", oRequest.m_oSrcElement.value);
+                    // console.log("Element ID ", id);
+                    // console.log("Element value ", oRequest.m_oSrcElement.value);
 
                     localStorage.setItem(String(id), String(oRequest.m_oSrcElement.value));
 
@@ -2104,6 +2141,9 @@
                             break;
                         case localStorage.getItem('I7'):
                             name = "---";
+                            break;
+                        case localStorage.getItem('B005'):
+                            name = "TOTAL FALLAS";
                     }
 
 
@@ -2112,7 +2152,7 @@
 
 
                 }
-
+                // funcion para definir el descripcion falla - mantto
                 function get_Message(id) {
 
                     let message = '--';
@@ -2138,6 +2178,9 @@
                             break;
                         case localStorage.getItem('I7'):
                             message = "---";
+                            break;
+                        case localStorage.getItem('B005'):
+                            message = "---";
                     }
 
 
@@ -2146,12 +2189,54 @@
 
 
                 }
+                // funcion para definir el count falla - mantto
+                function get_Count(id) {
+
+                    let count = 0;
+                    var elementByClass;
+
+                    switch (id) {
+                        case localStorage.getItem('I1'):
+                            elementByClass = getElementValueByClass("inputVal invalid4ddb9a597b87c042f5da");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I2'):
+                            elementByClass = getElementValueByClass("inputVal invalid48d595fcac723d979cc6");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I3'):
+                            elementByClass = getElementValueByClass("inputVal invalid488988fbb9b2b749750b");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I4'):
+                            elementByClass = getElementValueByClass("inputVal invalid481cad6ae20762e72da0");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I5'):
+                            elementByClass = getElementValueByClass("inputVal invalid4708a4abecdbc897984f");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I6'):
+                            count = 0;
+                            break;
+                        case localStorage.getItem('I7'):
+                            count = 0;
+
+
+                    }
+
+
+                    return count;
 
 
 
-                function observer(id) {
+                }
 
-                    getElementValue(id); // almaceno el valor actual del elemento
+                // --------------------------------------------------------------------------------------------------------------------
+                // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY ID
+                function observerByID(id) {
+
+                    getElementValue(id); // almacena el valor actual del elemento
 
                     const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
 
@@ -2181,8 +2266,9 @@
 
                                         const name = get_Name(String(id));
                                         const message = get_Message(String(id));
+                                        const count = get_Count(String(id));
 
-                                        post_data(name, mutation.target.value, message);
+                                        post_data(name, count, message);
 
                                     }
 
@@ -2196,7 +2282,55 @@
 
                 }
 
+                // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY Clase
+                function observerByClass(clase) {
 
+
+
+                    const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+
+                    // target
+                    const elementDOM = getElementValueByClass(clase); // almacena el valor actual del elemento
+                    // options
+                    const config = {
+                        attributes: true, // solo observa atributos
+                        childList: false,
+                        characterData: false,
+                        subtree: false,
+                    };
+
+
+                    // instance
+                    const observer = new MutationObserver(function(mutations) {
+
+                        mutations.forEach(function(mutation) {
+
+                            if (mutation.type === "attributes") { // identifica solo cambios en los atributos                             
+
+                                if (String(mutation.target.placeholder) !== localStorage.getItem(String(clase))) { // si se realiza un cambio
+
+                                    localStorage.setItem(String(clase), String(mutation.target.placeholder)); // actualiza localStorage
+
+
+                                    const name = get_Name(String(clase));
+                                    const message = get_Message(String(clase));
+
+
+                                    post_data(name, mutation.target.placeholder, message);
+
+
+
+                                }
+
+                            }
+                        });
+                    });
+
+                    observer.observe(elementDOM, config);
+
+                }
+
+                // -----------------------------------------------------------------------------------------------------------------
                 // envia los datos al DB
                 function post_data(name, value, message) {
 
@@ -2230,16 +2364,6 @@
 
 
                 /*
-                 var allElements = document.querySelectorAll('*');
-                    for (var i = 0; i < allElements.length; i++) {
-                        if (allElements[i].hasAttribute("class")) {
-                            console.log(allElements[i].className);
-                            if (allElements[i].className.includes("server_binding")) {
-                                console.log("I see the class"); // TODO ***
-                            }
-                        }
-                    }
-
                     var oRequest = new DBRequest(document.getElementById(id));
                     console.log("AQUI oRequest: ", oRequest);
                     console.log("AQUI oRequest.m_oSrcElement: ", oRequest.m_oSrcElement);

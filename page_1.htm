@@ -101,41 +101,236 @@
                 <p style="display: table-cell; vertical-align: middle; text-align: center; width: 252px; height: 41px;">@ 2021 abSoftWare</p>
             </div>
 
-
             <!-- **** script ***  -->
 
             <script>
+                // almacenando IDs en Local store
                 function storeIdent() {
 
-                    localStorage.setItem('I1', '');
-                    localStorage.setItem('I1', '');
-                    localStorage.setItem('I1', '');
-                    localStorage.setItem('I1', '');
-                    localStorage.setItem('I1', '');
+                    // Fallas - Inputs
+                    localStorage.setItem('I1', '461282ada40a7b641dc2'); // id
+                    localStorage.setItem('I2', '485486eb5f017f6c8938'); // id
+                    localStorage.setItem('I3', '4cb48140ac09ef7ffa44'); // id
+                    localStorage.setItem('I4', '4da2a582a2efceb83a7b'); // id
+                    localStorage.setItem('I5', '412fb50e3bcc940bc904'); // id
+
+                    // Fallas - Contadores
+                    localStorage.setItem('B005', 'inputVal invalid4320bf80b4d7fc283cc8'); // class
+
+
+
+
+                    // mantto - Inputs
+                    localStorage.setItem('I6', '437c9a6bbd1531e9a931');
+                    localStorage.setItem('I7', '44d3bfa0dd0ba3ce5809');
+
+
+                    setTimeout(monitoreStore(), 5000);
+
+                }
+
+
+                // inicia la Observacion de los elementos
+                function monitoreStore() {
+
+                    var I1 = localStorage.getItem('I1');
+                    var I2 = localStorage.getItem('I2');
+                    var I3 = localStorage.getItem('I3');
+                    var I4 = localStorage.getItem('I4');
+                    var I5 = localStorage.getItem('I5');
+
+                    var B005 = localStorage.getItem('B005');
+
+
+
+                    if (I1) {
+                        observerByID(I1);
+                    }
+                    if (I2) {
+                        observerByID(I2);
+                    }
+                    if (I3) {
+                        observerByID(I3);
+                    }
+                    if (I4) {
+                        observerByID(I4);
+                    }
+                    if (I5) {
+                        observerByID(I5);
+                    }
+                    if (B005) {
+                        observerByClass(B005); // contador total fallas
+                    }
+
+
+
 
                 }
 
 
 
-                function observer() {
-
-                    const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+                // captura el valor del elemento y lo almacena en localStorage
+                function getElementValueByClass(clase) {
 
                     var allElements = document.querySelectorAll('*');
                     for (var i = 0; i < allElements.length; i++) {
                         if (allElements[i].hasAttribute("class")) {
                             console.log(allElements[i].className);
-                            if (allElements[i].className.includes("server_binding")) {
-                                console.log("I see the class"); // TODO ***
+                            if (allElements[i].className.includes(clase)) {
+
+                                // console.log("I see the class", allElements[i]);
+                                localStorage.setItem(String(clase), String(allElements[i].placeholder));
+
+                                return allElements[i];
+
                             }
                         }
                     }
 
+                }
+
+
+                // captura el valor del elemento y lo almacena en localStorage
+                function getElementValue(id) {
+
+                    var oRequest = new DBRequest(document.getElementById(id));
+                    // console.log("Element ID ", id);
+                    // console.log("Element value ", oRequest.m_oSrcElement.value);
+
+                    localStorage.setItem(String(id), String(oRequest.m_oSrcElement.value));
+
+                }
+
+                // funcion para definir el nombre falla - mantto
+                function get_Name(id) {
+
+                    let name = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I1'):
+                            name = "FALLA BOMBA";
+                            break;
+                        case localStorage.getItem('I2'):
+                            name = "PARADA EMERGENCIA";
+                            break;
+                        case localStorage.getItem('I3'):
+                            name = "BAJO NIVEL AGUA";
+                            break;
+                        case localStorage.getItem('I4'):
+                            name = "BAJO NIVEL COMBUSTIBLE";
+                            break;
+                        case localStorage.getItem('I5'):
+                            name = "FALLA QUEMADOR";
+                            break;
+                        case localStorage.getItem('I6'):
+                            name = "---";
+                            break;
+                        case localStorage.getItem('I7'):
+                            name = "---";
+                            break;
+                        case localStorage.getItem('B005'):
+                            name = "TOTAL FALLAS";
+                    }
+
+
+                    return name;
+
+
+
+                }
+                // funcion para definir el descripcion falla - mantto
+                function get_Message(id) {
+
+                    let message = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I1'):
+                            message = "REVISAR RED ELECTRICA - REV FILTROS - REV IMPULSOR - REV RED FLUIDOS";
+                            break;
+                        case localStorage.getItem('I2'):
+                            message = "REVISAR BOTON - EXTRAERLO - REVISAR SEÑAL ELECTRICA - REEMPLAZAR BOTON";
+                            break;
+                        case localStorage.getItem('I3'):
+                            message = "REVISAR TANQUE - REVISAR VALVULAS - REVISAR ENCEND. BOMBA - REVISAR FLUJO";
+                            break;
+                        case localStorage.getItem('I4'):
+                            message = "REVISAR NIVEL  TANQUE - REVI VALVULAS - REVI BOMBA PREND - REVI CIRCUITO ELECTRICO";
+                            break;
+                        case localStorage.getItem('I5'):
+                            message = "REVISAR CIRCUITO - REVISAR LENTE - REV ELECTRODOS - REV VENTILADOR - REV COMBUSTIBLE";
+                            break;
+                        case localStorage.getItem('I6'):
+                            message = "---";
+                            break;
+                        case localStorage.getItem('I7'):
+                            message = "---";
+                            break;
+                        case localStorage.getItem('B005'):
+                            message = "---";
+                    }
+
+
+                    return message;
+
+
+
+                }
+                // funcion para definir el count falla - mantto
+                function get_Count(id) {
+
+                    let count = 0;
+                    var elementByClass;
+
+                    switch (id) {
+                        case localStorage.getItem('I1'):
+                            elementByClass = getElementValueByClass("inputVal invalid4ddb9a597b87c042f5da");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I2'):
+                            elementByClass = getElementValueByClass("inputVal invalid48d595fcac723d979cc6");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I3'):
+                            elementByClass = getElementValueByClass("inputVal invalid488988fbb9b2b749750b");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I4'):
+                            elementByClass = getElementValueByClass("inputVal invalid481cad6ae20762e72da0");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I5'):
+                            elementByClass = getElementValueByClass("inputVal invalid4708a4abecdbc897984f");
+                            count = parseInt(elementByClass.placeholder, 10);
+                            break;
+                        case localStorage.getItem('I6'):
+                            count = 0;
+                            break;
+                        case localStorage.getItem('I7'):
+                            count = 0;
+
+
+                    }
+
+
+                    return count;
+
+
+
+                }
+
+                // --------------------------------------------------------------------------------------------------------------------
+                // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY ID
+                function observerByID(id) {
+
+                    getElementValue(id); // almacena el valor actual del elemento
+
+                    const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+
                     // target
-                    const list = document.getElementById("49d191ffca718de55e5c");
+                    const elementDOM = document.getElementById(id);
                     // options
                     const config = {
-                        attributes: true,
+                        attributes: true, // solo observa atributos
                         childList: false,
                         characterData: false,
                         subtree: false,
@@ -144,55 +339,93 @@
 
                     // instance
                     const observer = new MutationObserver(function(mutations) {
-                        // console.log(`mutations =`, mutations); // MutationRecord
-                        mutations.forEach(function(mutation) {
-                            // console.log("mutation =", mutation);
-                            if (mutation.type === "characterData") {
-                                // console.log("characterData");
-                            }
-                            if (mutation.type === "childList") {
-                                // console.log("childList");
-                            }
-                            if (mutation.type === "attributes") {
-                                console.log("mutation =", mutation);
-                                console.log("mutation.target =", mutation.target);
-                                console.log("mutation.target.value =", mutation.target.value);
-                                console.log(`The \`${mutation.attributeName}\` attribute was modified.`);
 
-                                localStorage.setItem('value', String(mutation.target.value)); // TODO ***
+                        mutations.forEach(function(mutation) {
+
+                            if (mutation.type === "attributes") { // identifica solo cambios en los atributos                             
+
+                                if (String(mutation.target.value) !== localStorage.getItem(String(id))) { // si se realiza un cambio
+
+                                    localStorage.setItem(String(id), String(mutation.target.value)); // actualiza localStorage
+
+                                    if (String(mutation.target.value) === '1') {
+
+                                        const name = get_Name(String(id));
+                                        const message = get_Message(String(id));
+                                        const count = get_Count(String(id));
+
+                                        post_data(name, count, message);
+
+                                    }
+
+                                }
 
                             }
                         });
                     });
 
-
-                    // const observer = new MutationObserver(mutation => {
-                    //     console.log('DOM mutation detected');
-                    // });
-
-                    observer.observe(list, config);
+                    observer.observe(elementDOM, config);
 
                 }
 
+                // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY Clase
+                function observerByClass(clase) {
 
+
+
+                    const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+
+                    // target
+                    const elementDOM = getElementValueByClass(clase); // almacena el valor actual del elemento
+                    // options
+                    const config = {
+                        attributes: true, // solo observa atributos
+                        childList: false,
+                        characterData: false,
+                        subtree: false,
+                    };
+
+
+                    // instance
+                    const observer = new MutationObserver(function(mutations) {
+
+                        mutations.forEach(function(mutation) {
+
+                            if (mutation.type === "attributes") { // identifica solo cambios en los atributos                             
+
+                                if (String(mutation.target.placeholder) !== localStorage.getItem(String(clase))) { // si se realiza un cambio
+
+                                    localStorage.setItem(String(clase), String(mutation.target.placeholder)); // actualiza localStorage
+
+
+                                    const name = get_Name(String(clase));
+                                    const message = get_Message(String(clase));
+
+
+                                    post_data(name, mutation.target.placeholder, message);
+
+
+
+                                }
+
+                            }
+                        });
+                    });
+
+                    observer.observe(elementDOM, config);
+
+                }
+
+                // -----------------------------------------------------------------------------------------------------------------
                 // envia los datos al DB
-                function post_data(id) {
+                function post_data(name, value, message) {
 
-
-
-                    console.log("ID: ", id);
-
-                    var oRequest = new DBRequest(document.getElementById(id));
-                    console.log("AQUI oRequest: ", oRequest);
-                    console.log("AQUI oRequest.m_oSrcElement: ", oRequest.m_oSrcElement);
-                    console.log("AQUI oRequest.m_oSrcElement.value: ", oRequest.m_oSrcElement.value);
 
                     const params = {
-                        name: id,
-                        count: 1,
-                        message: "FALLA BOMBA"
+                        name: name,
+                        count: value,
+                        message: message
                     }
-
 
                     var http = new XMLHttpRequest();
                     http.open("POST", "http://localhost/ucentral-API/fails");
@@ -201,31 +434,36 @@
                     http.send(JSON.stringify(params));
                     // http.onload = function() {                        
                     //     alert(http.responseText)
-                    // }
-
-                    // setTimeout(post_data("49d191ffca718de55e5c"), 30000);
+                    // }                   
 
                 }
 
-                // post_data("49d191ffca718de55e5c");
 
 
 
-
-
-
-
+                //------------INICIO-------------------------------
                 window.onload = function() {
 
+                    storeIdent();
 
-
-
-
-
-                    post_data("49d191ffca718de55e5c");
-                    observer();
                 };
+
+
+                /*
+                inputVal invalid4320bf80b4d7fc283cc8
+    
+
+                    var oRequest = new DBRequest(document.getElementById(id));
+                    console.log("AQUI oRequest: ", oRequest);
+                    console.log("AQUI oRequest.m_oSrcElement: ", oRequest.m_oSrcElement);
+                    console.log("AQUI oRequest.m_oSrcElement.value: ", oRequest.m_oSrcElement.value);
+
+                */
             </script>
+
+
+
+            <!-- *** END div main *** -->
 
 
         </div>
