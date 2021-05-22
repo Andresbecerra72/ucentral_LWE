@@ -2037,9 +2037,7 @@
                 }
 
 
-
-
-
+                // inicia la Observacion de los elementos
                 function monitoreStore() {
 
                     var I1 = localStorage.getItem('I1');
@@ -2069,7 +2067,7 @@
 
                 }
 
-
+                // captura el valor del elemento y lo almacena en localStorage
                 function getElementValue(id) {
 
                     var oRequest = new DBRequest(document.getElementById(id));
@@ -2077,6 +2075,75 @@
                     console.log("Element value ", oRequest.m_oSrcElement.value);
 
                     localStorage.setItem(String(id), String(oRequest.m_oSrcElement.value));
+
+                }
+
+                // funcion para definir el nombre falla - mantto
+                function get_Name(id) {
+
+                    let name = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I1'):
+                            name = "FALLA BOMBA";
+                            break;
+                        case localStorage.getItem('I2'):
+                            name = "PARADA EMERGENCIA";
+                            break;
+                        case localStorage.getItem('I3'):
+                            name = "BAJO NIVEL AGUA";
+                            break;
+                        case localStorage.getItem('I4'):
+                            name = "BAJO NIVEL COMBUSTIBLE";
+                            break;
+                        case localStorage.getItem('I5'):
+                            name = "FALLA QUEMADOR";
+                            break;
+                        case localStorage.getItem('I6'):
+                            name = "---";
+                            break;
+                        case localStorage.getItem('I7'):
+                            name = "---";
+                    }
+
+
+                    return name;
+
+
+
+                }
+
+                function get_Message(id) {
+
+                    let message = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I1'):
+                            message = "REVISAR RED ELECTRICA - REV FILTROS - REV IMPULSOR - REV RED FLUIDOS";
+                            break;
+                        case localStorage.getItem('I2'):
+                            message = "REVISAR BOTON - EXTRAERLO - REVISAR SEÑAL ELECTRICA - REEMPLAZAR BOTON";
+                            break;
+                        case localStorage.getItem('I3'):
+                            message = "REVISAR TANQUE - REVISAR VALVULAS - REVISAR ENCEND. BOMBA - REVISAR FLUJO";
+                            break;
+                        case localStorage.getItem('I4'):
+                            message = "REVISAR NIVEL  TANQUE - REVI VALVULAS - REVI BOMBA PREND - REVI CIRCUITO ELECTRICO";
+                            break;
+                        case localStorage.getItem('I5'):
+                            message = "REVISAR CIRCUITO - REVISAR LENTE - REV ELECTRODOS - REV VENTILADOR - REV COMBUSTIBLE";
+                            break;
+                        case localStorage.getItem('I6'):
+                            message = "---";
+                            break;
+                        case localStorage.getItem('I7'):
+                            message = "---";
+                    }
+
+
+                    return message;
+
+
 
                 }
 
@@ -2092,7 +2159,7 @@
                     const elementDOM = document.getElementById(id);
                     // options
                     const config = {
-                        attributes: true,
+                        attributes: true, // solo observa atributos
                         childList: false,
                         characterData: false,
                         subtree: false,
@@ -2101,19 +2168,23 @@
 
                     // instance
                     const observer = new MutationObserver(function(mutations) {
-                        // console.log(`mutations =`, mutations); // MutationRecord
+
                         mutations.forEach(function(mutation) {
 
-                            if (mutation.type === "attributes") {
-                                console.log("mutation =", mutation);
-                                console.log("mutation.target =", mutation.target);
-                                console.log("mutation.target.value =", mutation.target.value);
+                            if (mutation.type === "attributes") { // identifica solo cambios en los atributos                             
 
-                                if (String(mutation.target.value) !== localStorage.getItem(String(id))) {
+                                if (String(mutation.target.value) !== localStorage.getItem(String(id))) { // si se realiza un cambio
 
-                                    localStorage.setItem(String(id), String(mutation.target.value));
+                                    localStorage.setItem(String(id), String(mutation.target.value)); // actualiza localStorage
 
-                                    post_data(id, mutation.target.value, "TODO: **");
+                                    if (String(mutation.target.value) === '1') {
+
+                                        const name = get_Name(String(id));
+                                        const message = get_Message(String(id));
+
+                                        post_data(name, mutation.target.value, message);
+
+                                    }
 
                                 }
 
@@ -2121,27 +2192,20 @@
                         });
                     });
 
-
-                    // const observer = new MutationObserver(mutation => {
-                    //     console.log('DOM mutation detected');
-                    // });
-
                     observer.observe(elementDOM, config);
 
                 }
 
 
                 // envia los datos al DB
-                function post_data(id, value, message) {
+                function post_data(name, value, message) {
 
-                    console.log("POST ID: ", id);
 
                     const params = {
-                        name: id,
+                        name: name,
                         count: value,
                         message: message
                     }
-
 
                     var http = new XMLHttpRequest();
                     http.open("POST", "http://localhost/ucentral-API/fails");
@@ -2150,15 +2214,14 @@
                     http.send(JSON.stringify(params));
                     // http.onload = function() {                        
                     //     alert(http.responseText)
-                    // }
-
-                    // setTimeout(post_data("49d191ffca718de55e5c"), 30000);
+                    // }                   
 
                 }
 
-                // post_data("49d191ffca718de55e5c");
 
 
+
+                //------------INICIO-------------------------------
                 window.onload = function() {
 
                     storeIdent();
