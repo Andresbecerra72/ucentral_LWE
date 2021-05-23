@@ -2105,47 +2105,47 @@
 
                     // Mantenimiento - inputs
                     if (I6) {
-                        observerByID(I6, "flag_Matto"); // selector llave
+                        observerByID(I6, "flag_Mantto"); // selector llave
                     }
                     if (I7) {
                         observerByID(I7, "flag_Mantto"); // caldera RUN
                     }
                     // Mantenimiento - Muestras
                     if (M1) {
-                        observerByID(M1, "flag_Matto"); // M
+                        observerByID(M1, "flag_Mantto"); // M
                     }
                     if (M2) {
-                        observerByID(M2, "flag_Matto"); // M
+                        observerByID(M2, "flag_Mantto"); // M
                     }
                     if (M3) {
-                        observerByID(M3, "flag_Matto"); // M
+                        observerByID(M3, "flag_Mantto"); // M
                     }
                     if (M4) {
-                        observerByID(M4, "flag_Matto"); // M
+                        observerByID(M4, "flag_Mantto"); // M
                     }
                     if (M5) {
-                        observerByID(M5, "flag_Matto"); // M
+                        observerByID(M5, "flag_Mantto"); // M
                     }
                     if (M6) {
-                        observerByID(M6, "flag_Matto"); // M
+                        observerByID(M6, "flag_Mantto"); // M
                     }
                     if (M7) {
-                        observerByID(M7, "flag_Matto"); // M
+                        observerByID(M7, "flag_Mantto"); // M
                     }
                     if (M9) {
-                        observerByID(M9, "flag_Matto"); // M
+                        observerByID(M9, "flag_Mantto"); // M
                     }
                     if (M10) {
-                        observerByID(M10, "flag_Matto"); // M
+                        observerByID(M10, "flag_Mantto"); // M
                     }
                     if (M11) {
-                        observerByID(M11, "flag_Matto"); // M
+                        observerByID(M11, "flag_Mantto"); // M
                     }
                     if (M12) {
-                        observerByID(M12, "flag_Matto"); // M
+                        observerByID(M12, "flag_Mantto"); // M
                     }
                     if (M13) {
-                        observerByID(M13, "flag_Matto"); // M
+                        observerByID(M13, "flag_Mantto"); // M
                     }
 
 
@@ -2159,7 +2159,7 @@
                     var allElements = document.querySelectorAll('*');
                     for (var i = 0; i < allElements.length; i++) {
                         if (allElements[i].hasAttribute("class")) {
-                            console.log(allElements[i].className);
+                            // console.log(allElements[i].className);
                             if (allElements[i].className.includes(clase)) {
 
                                 // console.log("I see the class", allElements[i]);
@@ -2292,19 +2292,19 @@
                             message = "URGENTE MANTENIMIENTO AL QUEMADOR";
                             break;
                         case localStorage.getItem('M3'):
-                            message = "PIROTUBOS  PROXIMOS A  MANTENIMIENTO";
+                            message = "PIROTUBOS  PROXIMOS A MANTENIMIENTO";
                             break;
                         case localStorage.getItem('M4'):
                             message = "URGENTE MANTENIMIENTO PIROTUBOS";
                             break;
                         case localStorage.getItem('M5'):
-                            message = "PROXIMO  MANTENIMIENTO BOMBAS";
+                            message = "PROXIMO MANTENIMIENTO BOMBAS";
                             break;
                         case localStorage.getItem('M6'):
                             message = "URGENTE MANTENIMIENTO BOMBAS";
                             break;
                         case localStorage.getItem('M7'):
-                            message = "PROXIMO  MANTENIMIENTO SISTEMA PURGAS";
+                            message = "PROXIMO MANTENIMIENTO SISTEMA PURGAS";
                             break;
                         case localStorage.getItem('M9'):
                             message = "URGENTE REVISION DE CONDESADOS Y PURGAS";
@@ -2316,7 +2316,7 @@
                             message = "URGENTE REVISION ANCLAJES DE LA CLADERA";
                             break;
                         case localStorage.getItem('M12'):
-                            message = "PROXIMA  MANTENIMIENTO ELECTRICO GENERAL";
+                            message = "PROXIMA MANTENIMIENTO ELECTRICO GENERAL";
                             break;
                         case localStorage.getItem('M13'):
                             message = "URGENTE MANTENIMIENTO SISTEMA ELECTRICO";
@@ -2334,7 +2334,7 @@
                 // funcion para definir el count falla - mantto
                 function get_Count(id) {
 
-                    let count = 0;
+                    let count = 1;
                     var elementByClass;
 
                     switch (id) {
@@ -2359,10 +2359,10 @@
                             count = parseInt(elementByClass.placeholder, 10);
                             break;
                         case localStorage.getItem('I6'):
-                            count = 0;
+                            count = 1;
                             break;
                         case localStorage.getItem('I7'):
-                            count = 0;
+                            count = 1;
 
 
                     }
@@ -2442,13 +2442,13 @@
                             description = "I7-DESCRIPTION";
                             break;
                         case localStorage.getItem('M1'): //M
-                            description = "ALISTAR LLAVE 1/2 MIXTA - BAYETILLA - LLAVES BRISTOL - ALCOHOL";
+                            description = "ALISTAR LLAVE MIXTA - BAYETILLA - LLAVES BRISTOL - ALCOHOL";
                             break;
                         case localStorage.getItem('M2'): //M
                             description = "LIMPIAR VENTILADOR - LIMPIAR LENTE - CALB. ELECTRODO - AJUSTE CONEXION - REVISAR BOMBA";
                             break;
                         case localStorage.getItem('M3'): //M
-                            description = "ALISTAR LLAVE 1/2 - CHURRUSCO - ESCOBA RECOGEDOR - LONA";
+                            description = "ALISTAR LLAVE - CHURRUSCO - ESCOBA RECOGEDOR - LONA";
                             break;
                         case localStorage.getItem('M4'): //M
                             description = "QUITAR TAPA SUPERIOR - LIMPIAR LUGAR - LAVAR CON AGUA - Y CHURRUSCO - TAPAR SELLAR";
@@ -2457,7 +2457,7 @@
                             description = "ALISTAR LLAVE TUBOS - ATORNILLADORES - MULTIMETRO - BAYETILLA";
                             break;
                         case localStorage.getItem('M6'): //M
-                            description = "LIMPIEZA EXTERNA - AJUTE TERMNALES - REVISION IMPULSOR - REVISION FILTROS - INSPECCION DE SELLOS MEC.";
+                            description = "LIMPIEZA EXTERNA - AJUSTE TERMNALES - REVISION IMPULSOR - REVISION FILTROS - INSPECCION DE SELLOS MEC.";
                             break;
                         case localStorage.getItem('M7'): //M
                             description = "ALISTAR LLAVE MIXTA - LLAVES TUBOS - GUANTES ANTIFLAMA";
@@ -2475,7 +2475,7 @@
                             description = "ALISTAR MULTIMETROS - ATORNILLADORES - LIMPIADOR ELECTRICO";
                             break;
                         case localStorage.getItem('M13'): //M
-                            description = "DESENERGIZAR RED - AJUSTAR CONEXION - REVISAR TIERRAS - REVIAS ALIMENTACION - ENERGIZAR TOMAR CONSUMO";
+                            description = "DESENERGIZAR RED - AJUSTAR CONEXION - REVISAR TIERRAS - REVISAR ALIMENTACION - ENERGIZAR TOMAR CONSUMO";
                     }
 
 
