@@ -2031,12 +2031,26 @@
                     // Fallas - Contadores
                     localStorage.setItem('B005', 'inputVal invalid4320bf80b4d7fc283cc8'); // class
 
-                    // mantto - Inputs
+                    // Mantto - Inputs
                     localStorage.setItem('I6', '437c9a6bbd1531e9a931');
                     localStorage.setItem('I7', '44d3bfa0dd0ba3ce5809');
 
+                    // Mantto - Muestras: informacion de mensajes aviso - urgente
+                    localStorage.setItem('M1', '44dc89a1ee95d3d12ff2'); // M1 Aviso
+                    localStorage.setItem('M2', '4908b2be785474a8205c'); // M2 Urgente
+                    localStorage.setItem('M3', '4250a64755a174c8c9a8'); // M3 Aviso
+                    localStorage.setItem('M4', '4ba9b6d0de697fcf2deb'); // M4 Urgente
+                    localStorage.setItem('M5', '43fb8395952c7505804a'); // M5 Aviso
+                    localStorage.setItem('M6', '407c9c0d52a6ab24cd38'); // M6 Urgente
+                    localStorage.setItem('M7', '412c9a7efd25b000ab10'); // M7 Aviso
+                    localStorage.setItem('M9', '45eba27b268a2ef05135'); // M9 Urgente
+                    localStorage.setItem('M10', '49fea60ad4725eee2889'); // M10 Aviso
+                    localStorage.setItem('M11', '41729b40808ce6a1c093'); // M11 Urgente
+                    localStorage.setItem('M12', '4a698b42a5771c24d4cd'); // M12 Aviso
+                    localStorage.setItem('M13', '4c81811cf604a3536a3a'); // M12 Urgente
 
-                    setTimeout(monitoreStore(), 5000);
+
+                    setTimeout(monitoreStore(), 5000); // Inicia los Observables
 
                 }
 
@@ -2054,6 +2068,20 @@
 
                     var I6 = localStorage.getItem('I6');
                     var I7 = localStorage.getItem('I7');
+
+                    var M1 = localStorage.getItem('M1');
+                    var M2 = localStorage.getItem('M2');
+                    var M3 = localStorage.getItem('M3');
+                    var M4 = localStorage.getItem('M4');
+                    var M5 = localStorage.getItem('M5');
+                    var M6 = localStorage.getItem('M6');
+                    var M7 = localStorage.getItem('M7');
+                    var M9 = localStorage.getItem('M9');
+                    var M10 = localStorage.getItem('M10');
+                    var M11 = localStorage.getItem('M11');
+                    var M12 = localStorage.getItem('M12');
+                    var M13 = localStorage.getItem('M13');
+
 
                     // Fails - inputs
                     if (I1) {
@@ -2082,9 +2110,43 @@
                     if (I7) {
                         observerByID(I7, "flag_Mantto"); // caldera RUN
                     }
-
-
-
+                    // Mantenimiento - Muestras
+                    if (M1) {
+                        observerByID(M1, "flag_Matto"); // M
+                    }
+                    if (M2) {
+                        observerByID(M2, "flag_Matto"); // M
+                    }
+                    if (M3) {
+                        observerByID(M3, "flag_Matto"); // M
+                    }
+                    if (M4) {
+                        observerByID(M4, "flag_Matto"); // M
+                    }
+                    if (M5) {
+                        observerByID(M5, "flag_Matto"); // M
+                    }
+                    if (M6) {
+                        observerByID(M6, "flag_Matto"); // M
+                    }
+                    if (M7) {
+                        observerByID(M7, "flag_Matto"); // M
+                    }
+                    if (M9) {
+                        observerByID(M9, "flag_Matto"); // M
+                    }
+                    if (M10) {
+                        observerByID(M10, "flag_Matto"); // M
+                    }
+                    if (M11) {
+                        observerByID(M11, "flag_Matto"); // M
+                    }
+                    if (M12) {
+                        observerByID(M12, "flag_Matto"); // M
+                    }
+                    if (M13) {
+                        observerByID(M13, "flag_Matto"); // M
+                    }
 
 
                 }
@@ -2129,7 +2191,7 @@
                     let name = '--';
 
                     switch (id) {
-                        case localStorage.getItem('I1'):
+                        case localStorage.getItem('I1'): // Fallas
                             name = "FALLA BOMBA";
                             break;
                         case localStorage.getItem('I2'):
@@ -2144,11 +2206,47 @@
                         case localStorage.getItem('I5'):
                             name = "FALLA QUEMADOR";
                             break;
-                        case localStorage.getItem('I6'):
+                        case localStorage.getItem('I6'): // Mantto
                             name = "SELECTOR LLAVE";
                             break;
                         case localStorage.getItem('I7'):
                             name = "CALDERA RUN";
+                            break;
+                        case localStorage.getItem('M1'):
+                            name = "AVISO QUEMADOR";
+                            break;
+                        case localStorage.getItem('M2'):
+                            name = "URGENTE QUEMADOR";
+                            break;
+                        case localStorage.getItem('M3'):
+                            name = "AVISO PIROTUBOS";
+                            break;
+                        case localStorage.getItem('M4'):
+                            name = "URGENTE PIROTUBOS";
+                            break;
+                        case localStorage.getItem('M5'):
+                            name = "AVISO BOMBAS";
+                            break;
+                        case localStorage.getItem('M6'):
+                            name = "URGENTE BOMBAS";
+                            break;
+                        case localStorage.getItem('M7'):
+                            name = "AVISO CONDENSADOS Y PURGAS";
+                            break;
+                        case localStorage.getItem('M9'):
+                            name = "URGENTE CONDENSADOS Y PURGAS";
+                            break;
+                        case localStorage.getItem('M10'):
+                            name = "AVISO ANCLAJES";
+                            break;
+                        case localStorage.getItem('M11'):
+                            name = "URGENTE ANCLAJES";
+                            break;
+                        case localStorage.getItem('M12'):
+                            name = "AVISO SISTEMA ELECTRICO";
+                            break;
+                        case localStorage.getItem('M13'):
+                            name = "URGENTE SISTEMA ELECTRICO";
                             break;
                         case localStorage.getItem('B005'):
                             name = "TOTAL FALLAS";
@@ -2186,6 +2284,42 @@
                             break;
                         case localStorage.getItem('I7'):
                             message = "---";
+                            break;
+                        case localStorage.getItem('M1'):
+                            message = "QUEMADOR PROXIMO A MANTENIMIENTO";
+                            break;
+                        case localStorage.getItem('M2'):
+                            message = "URGENTE MANTENIMIENTO AL QUEMADOR";
+                            break;
+                        case localStorage.getItem('M3'):
+                            message = "PIROTUBOS  PROXIMOS A  MANTENIMIENTO";
+                            break;
+                        case localStorage.getItem('M4'):
+                            message = "URGENTE MANTENIMIENTO PIROTUBOS";
+                            break;
+                        case localStorage.getItem('M5'):
+                            message = "PROXIMO  MANTENIMIENTO BOMBAS";
+                            break;
+                        case localStorage.getItem('M6'):
+                            message = "URGENTE MANTENIMIENTO BOMBAS";
+                            break;
+                        case localStorage.getItem('M7'):
+                            message = "PROXIMO  MANTENIMIENTO SISTEMA PURGAS";
+                            break;
+                        case localStorage.getItem('M9'):
+                            message = "URGENTE REVISION DE CONDESADOS Y PURGAS";
+                            break;
+                        case localStorage.getItem('M10'):
+                            message = "PROXIMO MANTENIMIENTO ANCLAJES";
+                            break;
+                        case localStorage.getItem('M11'):
+                            message = "URGENTE REVISION ANCLAJES DE LA CLADERA";
+                            break;
+                        case localStorage.getItem('M12'):
+                            message = "PROXIMA  MANTENIMIENTO ELECTRICO GENERAL";
+                            break;
+                        case localStorage.getItem('M13'):
+                            message = "URGENTE MANTENIMIENTO SISTEMA ELECTRICO";
                             break;
                         case localStorage.getItem('B005'):
                             message = "---";
@@ -2245,14 +2379,48 @@
                     let event = '--';
 
                     switch (id) {
-                        case localStorage.getItem('I6'):
+                        case localStorage.getItem('I6'): // input
                             event = "I6";
                             break;
-                        case localStorage.getItem('I7'):
+                        case localStorage.getItem('I7'): // input
                             event = "I7";
                             break;
-                        case "0000":
-                            event = "---";
+                        case localStorage.getItem('M1'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M2'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M3'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M4'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M5'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M6'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M7'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M9'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M10'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M11'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M12'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M13'): //M
+                            event = "URGENTE";
+
                     }
 
 
@@ -2273,8 +2441,41 @@
                         case localStorage.getItem('I7'):
                             description = "I7-DESCRIPTION";
                             break;
-                        case "0000":
-                            description = "---";
+                        case localStorage.getItem('M1'): //M
+                            description = "ALISTAR LLAVE 1/2 MIXTA - BAYETILLA - LLAVES BRISTOL - ALCOHOL";
+                            break;
+                        case localStorage.getItem('M2'): //M
+                            description = "LIMPIAR VENTILADOR - LIMPIAR LENTE - CALB. ELECTRODO - AJUSTE CONEXION - REVISAR BOMBA";
+                            break;
+                        case localStorage.getItem('M3'): //M
+                            description = "ALISTAR LLAVE 1/2 - CHURRUSCO - ESCOBA RECOGEDOR - LONA";
+                            break;
+                        case localStorage.getItem('M4'): //M
+                            description = "QUITAR TAPA SUPERIOR - LIMPIAR LUGAR - LAVAR CON AGUA - Y CHURRUSCO - TAPAR SELLAR";
+                            break;
+                        case localStorage.getItem('M5'): //M
+                            description = "ALISTAR LLAVE TUBOS - ATORNILLADORES - MULTIMETRO - BAYETILLA";
+                            break;
+                        case localStorage.getItem('M6'): //M
+                            description = "LIMPIEZA EXTERNA - AJUTE TERMNALES - REVISION IMPULSOR - REVISION FILTROS - INSPECCION DE SELLOS MEC.";
+                            break;
+                        case localStorage.getItem('M7'): //M
+                            description = "ALISTAR LLAVE MIXTA - LLAVES TUBOS - GUANTES ANTIFLAMA";
+                            break;
+                        case localStorage.getItem('M9'): //M
+                            description = "DRENAR TANQUE - CONDENSADOS - ABRIR VALVULA PURGAS - REPONER SISTEMA";
+                            break;
+                        case localStorage.getItem('M10'): //M
+                            description = "ALISTAR LLAVE MIXTA - EXPANSIVA - ATORNILLADORES PALA Y ESTRELLA";
+                            break;
+                        case localStorage.getItem('M11'): //M
+                            description = "AJUSTAR PERNOS - COMPLETAR TODA LA TORNILLERIA - AJUSTAR ACOPLES - AJUSTAR PUNTOS";
+                            break;
+                        case localStorage.getItem('M12'): //M
+                            description = "ALISTAR MULTIMETROS - ATORNILLADORES - LIMPIADOR ELECTRICO";
+                            break;
+                        case localStorage.getItem('M13'): //M
+                            description = "DESENERGIZAR RED - AJUSTAR CONEXION - REVISAR TIERRAS - REVIAS ALIMENTACION - ENERGIZAR TOMAR CONSUMO";
                     }
 
 
