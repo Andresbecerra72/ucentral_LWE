@@ -18,7 +18,7 @@
             <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Rectangle"/>
             <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="43f2a6f1c90097d5a782"/>
             <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="1"/>
-            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="176@-@158"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="177@-@159"/>
             <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="1400@-@255"/>
             <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
             <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
@@ -62,7 +62,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I1"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -88,7 +88,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I2"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -114,7 +114,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I3"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -140,7 +140,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I4"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -166,7 +166,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I5"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -288,7 +288,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I1"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -314,7 +314,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I2"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -340,7 +340,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I3"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -366,7 +366,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I4"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -392,7 +392,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I5"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -423,25 +423,6 @@
             <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
             <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
             <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="CONTROL FALLAS"/>
-        </Component>
-        <Component class="com.siemens.logo.udwp.editor.component.AnalogDateTimeComponent" id="4fc9a0ff9a4233bf2caa" name="DateTime">
-            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="DateTime"/>
-            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4fc9a0ff9a4233bf2caa"/>
-            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="21"/>
-            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="396@-@199"/>
-            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="167@-@64"/>
-            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
-            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
-            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
-            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
-            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
-            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
-            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
-            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
-            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
-            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
-            <ComponentProperty class="AnalogFormatProperty$AnalogDateTimeFormatProperty" id="PROPERTY_ANALOG_DATE_TIME_FORMAT" value="0"/>
         </Component>
         <Component class="com.siemens.logo.udwp.editor.component.RectangleComponent" id="4723b0cb97a1a1e2d32b" name="Rectangle">
             <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Rectangle"/>
@@ -483,7 +464,7 @@
             <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
             <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="44d3bfa0dd0ba3ce5809"/>
             <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="24"/>
-            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="435@-@256"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="419@-@247"/>
             <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="80@-@80"/>
             <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
             <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
@@ -491,7 +472,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I7"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -517,7 +498,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I6"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -543,7 +524,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="Q"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="Q2"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -605,7 +586,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="Q"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="Q3"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -649,7 +630,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="count bomba"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="4"/>
             <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
@@ -674,7 +655,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="count  parada emer"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="8"/>
             <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
@@ -699,7 +680,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="count burner"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="20"/>
             <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
@@ -724,7 +705,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="count low level water"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="12"/>
             <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
@@ -749,7 +730,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="count low level fuel"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="16"/>
             <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
@@ -774,7 +755,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="count total"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="0"/>
             <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
@@ -821,7 +802,7 @@
             <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TREND_TITLE_FONT_COLOR" value="0@-@0@-@0"/>
             <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TREND_TITLE_ALIGN" value="0"/>
             <ComponentProperty class="AnalogFormatProperty$IntervalTimeProperty" id="PROPERTY_INTERVAL_TIME" value="5"/>
-            <ComponentProperty class="TrendViewTagsProperty" id="PROPERTY_TREND_VIEW_TAGS" value="[{&quot;id&quot;:&quot;354a3285-8ee1-4b82-86d6-7b6f52810ebb&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;count total&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;0&quot;,&quot;realvalue&quot;:&quot;0&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;-65536&quot;,&quot;realvalue&quot;:&quot;-65536&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;32a8e489-9c03-4519-bbac-5be3af9859c8&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;PrivateTag&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;AM&quot;,&quot;realvalue&quot;:&quot;20&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;AM1&quot;,&quot;realvalue&quot;:&quot;0&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;Word&quot;,&quot;realvalue&quot;:&quot;4&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;-16711936&quot;,&quot;realvalue&quot;:&quot;-16711936&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;}]"/>
+            <ComponentProperty class="TrendViewTagsProperty" id="PROPERTY_TREND_VIEW_TAGS" value="[{&quot;id&quot;:&quot;354a3285-8ee1-4b82-86d6-7b6f52810ebb&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;count total&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;0&quot;,&quot;realvalue&quot;:&quot;0&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;-65536&quot;,&quot;realvalue&quot;:&quot;-65536&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;32a8e489-9c03-4519-bbac-5be3af9859c8&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;PrivateTag&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;AM&quot;,&quot;realvalue&quot;:&quot;20&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;AM1&quot;,&quot;realvalue&quot;:&quot;0&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;Word&quot;,&quot;realvalue&quot;:&quot;4&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;-16711936&quot;,&quot;realvalue&quot;:&quot;-16711936&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;}]"/>
             <ComponentProperty class="TrendViewXAxisTotalStepSizeProperty" id="PROPERTY_TREND_VIEW_STEPSIZE" value="5"/>
         </Component>
         <Component class="com.siemens.logo.udwp.editor.component.RectangleComponent" id="46938c8d34b86559ef66" name="Rectangle">
@@ -872,7 +853,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B030"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="24"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -896,7 +877,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B031"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="28"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -920,7 +901,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B041"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="32"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -944,7 +925,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B042"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="36"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -968,7 +949,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B043"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="40"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -992,7 +973,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B044"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="44"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1016,7 +997,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B045"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="48"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1040,7 +1021,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B046"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="52"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1064,7 +1045,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B047"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="56"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1088,7 +1069,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B048"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="60"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1112,7 +1093,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B049"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="64"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1136,7 +1117,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="time mantto B050"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="68"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1376,7 +1357,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="crono B029"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VD"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="76"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1418,7 +1399,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M1"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1444,7 +1425,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M1"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1470,7 +1451,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M1"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1496,7 +1477,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M3"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1522,7 +1503,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M5"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1548,7 +1529,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M7"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1574,7 +1555,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M10"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1600,7 +1581,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M12"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1626,7 +1607,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M2"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1652,7 +1633,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M4"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1678,7 +1659,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M6"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1704,7 +1685,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M9"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1730,7 +1711,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M11"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1756,7 +1737,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M13"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1822,7 +1803,7 @@
             <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TREND_TITLE_FONT_COLOR" value="0@-@0@-@0"/>
             <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TREND_TITLE_ALIGN" value="0"/>
             <ComponentProperty class="AnalogFormatProperty$IntervalTimeProperty" id="PROPERTY_INTERVAL_TIME" value="5"/>
-            <ComponentProperty class="TrendViewTagsProperty" id="PROPERTY_TREND_VIEW_TAGS" value="[{&quot;id&quot;:&quot;217adff0-873c-4d14-bd0a-85cdc963e526&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;time mantto B030&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;24&quot;,&quot;realvalue&quot;:&quot;192&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;379b71e9-da78-4c01-9526-0c65a2b9d714&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;time mantto B041&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;32&quot;,&quot;realvalue&quot;:&quot;256&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;70c07897-ed34-4c09-9352-c2f200654b22&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;time mantto B043&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;40&quot;,&quot;realvalue&quot;:&quot;320&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;ea84b732-9dcc-4ac5-a30c-e8c003591268&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;time mantto B045&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;48&quot;,&quot;realvalue&quot;:&quot;384&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;bf13377c-f74c-47f8-9376-568cf4a971c4&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;time mantto B047&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;56&quot;,&quot;realvalue&quot;:&quot;448&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;76da7ee7-02ff-4eca-878e-6ca13271d4b8&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;time mantto B049&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;64&quot;,&quot;realvalue&quot;:&quot;512&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;}]"/>
+            <ComponentProperty class="TrendViewTagsProperty" id="PROPERTY_TREND_VIEW_TAGS" value="[{&quot;id&quot;:&quot;217adff0-873c-4d14-bd0a-85cdc963e526&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;time mantto B030&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;24&quot;,&quot;realvalue&quot;:&quot;192&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;379b71e9-da78-4c01-9526-0c65a2b9d714&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;time mantto B041&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;32&quot;,&quot;realvalue&quot;:&quot;256&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;70c07897-ed34-4c09-9352-c2f200654b22&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;time mantto B043&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;40&quot;,&quot;realvalue&quot;:&quot;320&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;ea84b732-9dcc-4ac5-a30c-e8c003591268&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;time mantto B045&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;48&quot;,&quot;realvalue&quot;:&quot;384&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;bf13377c-f74c-47f8-9376-568cf4a971c4&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;time mantto B047&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;56&quot;,&quot;realvalue&quot;:&quot;448&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;76da7ee7-02ff-4eca-878e-6ca13271d4b8&quot;,&quot;deviceName&quot;:&quot;ucentral&quot;,&quot;name&quot;:&quot;time mantto B049&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VD&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;64&quot;,&quot;realvalue&quot;:&quot;512&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;DWord&quot;,&quot;realvalue&quot;:&quot;6&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;auto&quot;,&quot;realvalue&quot;:&quot;auto&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;}]"/>
             <ComponentProperty class="TrendViewXAxisTotalStepSizeProperty" id="PROPERTY_TREND_VIEW_STEPSIZE" value="5"/>
         </Component>
         <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4250a64755a174c8c9a8" name="SwitchButton">
@@ -1837,7 +1818,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M3"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1863,7 +1844,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M3"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1889,7 +1870,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M5"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1915,7 +1896,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M5"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1941,7 +1922,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M2"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1967,7 +1948,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M2"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -1993,7 +1974,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M4"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2019,7 +2000,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M4"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2045,7 +2026,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M6"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2071,7 +2052,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M6"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2097,7 +2078,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M7"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2123,7 +2104,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M7"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2149,7 +2130,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M9"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2175,7 +2156,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M9"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2201,7 +2182,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M12"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2227,7 +2208,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M12"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2253,7 +2234,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M13"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2279,7 +2260,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M13"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2305,7 +2286,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M10"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2331,7 +2312,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M10"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2357,7 +2338,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M11"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2383,7 +2364,7 @@
             <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1090"/>
             <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
             <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
-            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
             <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
             <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M11"/>
             <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
@@ -2418,6 +2399,112 @@
             <ComponentProperty class="LineProperty$Dashed" id="PROPERTY_Draw_Dashed" value="0"/>
             <ComponentProperty class="LineProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
             <ComponentProperty class="LineProperty$Points" id="PROPERTY_Draw_Points" value="17,124###1901,126###"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="434686c9b5e155b4c499" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="434686c9b5e155b4c499"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="108"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="380@-@208"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="172@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Consolas@-@1@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Caldera RUN"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="447b8b9e416b759a7305" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="447b8b9e416b759a7305"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="109"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="556@-@246"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="87@-@81"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="Q"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="Q4"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Indicators\starting.png@-@4CB7F855.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Indicators\shutdown.png@-@3EAF1D70.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value="Q4"/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value="OFF"/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4cd8bfd197a5c2bd4eb5" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4cd8bfd197a5c2bd4eb5"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="110"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="513@-@209"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="172@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Consolas@-@1@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Q4"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="45c3ac6259694df4e7a9" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="45c3ac6259694df4e7a9"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="111"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="649@-@204"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="172@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Consolas@-@1@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="F1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="44a0bf2f447694e80c1c" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="44a0bf2f447694e80c1c"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="112"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="685@-@237"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="100@-@100"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1870@-@1750"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1930@-@1810"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="ucentral"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="V"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="0.0"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Indicators\starting.png@-@4CB7F855.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\Default.png@-@Default.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value="ON"/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value="OFF"/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="true"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
         </Component>
     </Components>
 </Page>

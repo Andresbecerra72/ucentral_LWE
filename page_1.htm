@@ -113,19 +113,32 @@
                     localStorage.setItem('I3', '4cb48140ac09ef7ffa44'); // id
                     localStorage.setItem('I4', '4da2a582a2efceb83a7b'); // id
                     localStorage.setItem('I5', '412fb50e3bcc940bc904'); // id
+                    // Fallas Output
+                    localStorage.setItem('Q4', '447b8b9e416b759a7305'); // id
 
                     // Fallas - Contadores
                     localStorage.setItem('B005', 'inputVal invalid4320bf80b4d7fc283cc8'); // class
 
-
-
-
-                    // mantto - Inputs
+                    // Mantto - Inputs
                     localStorage.setItem('I6', '437c9a6bbd1531e9a931');
                     localStorage.setItem('I7', '44d3bfa0dd0ba3ce5809');
 
+                    // Mantto - Muestras: informacion de mensajes aviso - urgente
+                    localStorage.setItem('M1', '44dc89a1ee95d3d12ff2'); // M1 Aviso
+                    localStorage.setItem('M2', '4908b2be785474a8205c'); // M2 Urgente
+                    localStorage.setItem('M3', '4250a64755a174c8c9a8'); // M3 Aviso
+                    localStorage.setItem('M4', '4ba9b6d0de697fcf2deb'); // M4 Urgente
+                    localStorage.setItem('M5', '43fb8395952c7505804a'); // M5 Aviso
+                    localStorage.setItem('M6', '407c9c0d52a6ab24cd38'); // M6 Urgente
+                    localStorage.setItem('M7', '412c9a7efd25b000ab10'); // M7 Aviso
+                    localStorage.setItem('M9', '45eba27b268a2ef05135'); // M9 Urgente
+                    localStorage.setItem('M10', '49fea60ad4725eee2889'); // M10 Aviso
+                    localStorage.setItem('M11', '41729b40808ce6a1c093'); // M11 Urgente
+                    localStorage.setItem('M12', '4a698b42a5771c24d4cd'); // M12 Aviso
+                    localStorage.setItem('M13', '4c81811cf604a3536a3a'); // M12 Urgente
 
-                    setTimeout(monitoreStore(), 5000);
+
+                    setTimeout(monitoreStore(), 9000); // Inicia los Observables
 
                 }
 
@@ -139,30 +152,94 @@
                     var I4 = localStorage.getItem('I4');
                     var I5 = localStorage.getItem('I5');
 
+                    var Q4 = localStorage.getItem('Q4');
+
                     var B005 = localStorage.getItem('B005');
 
+                    var I6 = localStorage.getItem('I6');
+                    var I7 = localStorage.getItem('I7');
+
+                    var M1 = localStorage.getItem('M1');
+                    var M2 = localStorage.getItem('M2');
+                    var M3 = localStorage.getItem('M3');
+                    var M4 = localStorage.getItem('M4');
+                    var M5 = localStorage.getItem('M5');
+                    var M6 = localStorage.getItem('M6');
+                    var M7 = localStorage.getItem('M7');
+                    var M9 = localStorage.getItem('M9');
+                    var M10 = localStorage.getItem('M10');
+                    var M11 = localStorage.getItem('M11');
+                    var M12 = localStorage.getItem('M12');
+                    var M13 = localStorage.getItem('M13');
 
 
+                    // Fails - inputs
                     if (I1) {
-                        observerByID(I1);
+                        observerByID(I1, "flag_Fail");
                     }
                     if (I2) {
-                        observerByID(I2);
+                        observerByID(I2, "flag_Fail");
                     }
                     if (I3) {
-                        observerByID(I3);
+                        observerByID(I3, "flag_Fail");
                     }
                     if (I4) {
-                        observerByID(I4);
+                        observerByID(I4, "flag_Fail");
                     }
                     if (I5) {
-                        observerByID(I5);
+                        observerByID(I5, "flag_Fail");
+                    }
+                    if (Q4) {
+                        observerByID(Q4, "flag_Fail"); // Inicio Q4
                     }
                     if (B005) {
                         observerByClass(B005); // contador total fallas
                     }
 
-
+                    // Mantenimiento - inputs
+                    if (I6) {
+                        observerByID(I6, "flag_Mantto"); // selector llave
+                    }
+                    if (I7) {
+                        observerByID(I7, "flag_Mantto"); // caldera RUN
+                    }
+                    // Mantenimiento - Muestras
+                    if (M1) {
+                        observerByID(M1, "flag_Mantto"); // M
+                    }
+                    if (M2) {
+                        observerByID(M2, "flag_Mantto"); // M
+                    }
+                    if (M3) {
+                        observerByID(M3, "flag_Mantto"); // M
+                    }
+                    if (M4) {
+                        observerByID(M4, "flag_Mantto"); // M
+                    }
+                    if (M5) {
+                        observerByID(M5, "flag_Mantto"); // M
+                    }
+                    if (M6) {
+                        observerByID(M6, "flag_Mantto"); // M
+                    }
+                    if (M7) {
+                        observerByID(M7, "flag_Mantto"); // M
+                    }
+                    if (M9) {
+                        observerByID(M9, "flag_Mantto"); // M
+                    }
+                    if (M10) {
+                        observerByID(M10, "flag_Mantto"); // M
+                    }
+                    if (M11) {
+                        observerByID(M11, "flag_Mantto"); // M
+                    }
+                    if (M12) {
+                        observerByID(M12, "flag_Mantto"); // M
+                    }
+                    if (M13) {
+                        observerByID(M13, "flag_Mantto"); // M
+                    }
 
 
                 }
@@ -175,7 +252,7 @@
                     var allElements = document.querySelectorAll('*');
                     for (var i = 0; i < allElements.length; i++) {
                         if (allElements[i].hasAttribute("class")) {
-                            console.log(allElements[i].className);
+                            // console.log(allElements[i].className);
                             if (allElements[i].className.includes(clase)) {
 
                                 // console.log("I see the class", allElements[i]);
@@ -207,7 +284,7 @@
                     let name = '--';
 
                     switch (id) {
-                        case localStorage.getItem('I1'):
+                        case localStorage.getItem('I1'): // Fallas
                             name = "FALLA BOMBA";
                             break;
                         case localStorage.getItem('I2'):
@@ -222,11 +299,50 @@
                         case localStorage.getItem('I5'):
                             name = "FALLA QUEMADOR";
                             break;
-                        case localStorage.getItem('I6'):
-                            name = "---";
+                        case localStorage.getItem('Q4'):
+                            name = "INICIO Q4";
+                            break;
+                        case localStorage.getItem('I6'): // Mantto
+                            name = "SELECTOR LLAVE";
                             break;
                         case localStorage.getItem('I7'):
-                            name = "---";
+                            name = "CALDERA RUN";
+                            break;
+                        case localStorage.getItem('M1'):
+                            name = "AVISO QUEMADOR";
+                            break;
+                        case localStorage.getItem('M2'):
+                            name = "URGENTE QUEMADOR";
+                            break;
+                        case localStorage.getItem('M3'):
+                            name = "AVISO PIROTUBOS";
+                            break;
+                        case localStorage.getItem('M4'):
+                            name = "URGENTE PIROTUBOS";
+                            break;
+                        case localStorage.getItem('M5'):
+                            name = "AVISO BOMBAS";
+                            break;
+                        case localStorage.getItem('M6'):
+                            name = "URGENTE BOMBAS";
+                            break;
+                        case localStorage.getItem('M7'):
+                            name = "AVISO CONDENSADOS Y PURGAS";
+                            break;
+                        case localStorage.getItem('M9'):
+                            name = "URGENTE CONDENSADOS Y PURGAS";
+                            break;
+                        case localStorage.getItem('M10'):
+                            name = "AVISO ANCLAJES";
+                            break;
+                        case localStorage.getItem('M11'):
+                            name = "URGENTE ANCLAJES";
+                            break;
+                        case localStorage.getItem('M12'):
+                            name = "AVISO SISTEMA ELECTRICO";
+                            break;
+                        case localStorage.getItem('M13'):
+                            name = "URGENTE SISTEMA ELECTRICO";
                             break;
                         case localStorage.getItem('B005'):
                             name = "TOTAL FALLAS";
@@ -254,16 +370,54 @@
                             message = "REVISAR TANQUE - REVISAR VALVULAS - REVISAR ENCEND. BOMBA - REVISAR FLUJO";
                             break;
                         case localStorage.getItem('I4'):
-                            message = "REVISAR NIVEL  TANQUE - REVI VALVULAS - REVI BOMBA PREND - REVI CIRCUITO ELECTRICO";
+                            message = "REVISAR NIVEL TANQUE - REVI VALVULAS - REVI BOMBA PREND - REVI CIRCUITO ELECTRICO";
                             break;
                         case localStorage.getItem('I5'):
                             message = "REVISAR CIRCUITO - REVISAR LENTE - REV ELECTRODOS - REV VENTILADOR - REV COMBUSTIBLE";
                             break;
+                        case localStorage.getItem('Q4'):
+                            message = "---";
                         case localStorage.getItem('I6'):
                             message = "---";
                             break;
                         case localStorage.getItem('I7'):
                             message = "---";
+                            break;
+                        case localStorage.getItem('M1'):
+                            message = "QUEMADOR PROXIMO A MANTENIMIENTO";
+                            break;
+                        case localStorage.getItem('M2'):
+                            message = "URGENTE MANTENIMIENTO AL QUEMADOR";
+                            break;
+                        case localStorage.getItem('M3'):
+                            message = "PIROTUBOS  PROXIMOS A MANTENIMIENTO";
+                            break;
+                        case localStorage.getItem('M4'):
+                            message = "URGENTE MANTENIMIENTO PIROTUBOS";
+                            break;
+                        case localStorage.getItem('M5'):
+                            message = "PROXIMO MANTENIMIENTO BOMBAS";
+                            break;
+                        case localStorage.getItem('M6'):
+                            message = "URGENTE MANTENIMIENTO BOMBAS";
+                            break;
+                        case localStorage.getItem('M7'):
+                            message = "PROXIMO MANTENIMIENTO SISTEMA PURGAS";
+                            break;
+                        case localStorage.getItem('M9'):
+                            message = "URGENTE REVISION DE CONDESADOS Y PURGAS";
+                            break;
+                        case localStorage.getItem('M10'):
+                            message = "PROXIMO MANTENIMIENTO ANCLAJES";
+                            break;
+                        case localStorage.getItem('M11'):
+                            message = "URGENTE REVISION ANCLAJES DE LA CLADERA";
+                            break;
+                        case localStorage.getItem('M12'):
+                            message = "PROXIMO MANTENIMIENTO ELECTRICO GENERAL";
+                            break;
+                        case localStorage.getItem('M13'):
+                            message = "URGENTE MANTENIMIENTO SISTEMA ELECTRICO";
                             break;
                         case localStorage.getItem('B005'):
                             message = "---";
@@ -278,7 +432,7 @@
                 // funcion para definir el count falla - mantto
                 function get_Count(id) {
 
-                    let count = 0;
+                    let count = 1;
                     var elementByClass;
 
                     switch (id) {
@@ -302,11 +456,13 @@
                             elementByClass = getElementValueByClass("inputVal invalid4708a4abecdbc897984f");
                             count = parseInt(elementByClass.placeholder, 10);
                             break;
+                        case localStorage.getItem('Q4'):
+                            count = 1;
                         case localStorage.getItem('I6'):
-                            count = 0;
+                            count = 1;
                             break;
                         case localStorage.getItem('I7'):
-                            count = 0;
+                            count = 1;
 
 
                     }
@@ -317,10 +473,122 @@
 
 
                 }
+                // funcion para definir el Event - mantto
+                function get_Event(id) {
+
+                    let event = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I6'): // input
+                            event = "I6";
+                            break;
+                        case localStorage.getItem('I7'): // input
+                            event = "I7";
+                            break;
+                        case localStorage.getItem('M1'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M2'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M3'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M4'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M5'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M6'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M7'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M9'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M10'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M11'): //M
+                            event = "URGENTE";
+                            break;
+                        case localStorage.getItem('M12'): //M
+                            event = "AVISO";
+                            break;
+                        case localStorage.getItem('M13'): //M
+                            event = "URGENTE";
+
+                    }
+
+
+                    return event;
+
+
+
+                }
+                // funcion para definir el Description - mantto
+                function get_Description(id) {
+
+                    let description = '--';
+
+                    switch (id) {
+                        case localStorage.getItem('I6'):
+                            description = "I6-DESCRIPTION";
+                            break;
+                        case localStorage.getItem('I7'):
+                            description = "I7-DESCRIPTION";
+                            break;
+                        case localStorage.getItem('M1'): //M
+                            description = "ALISTAR LLAVE MIXTA - BAYETILLA - LLAVES BRISTOL - ALCOHOL";
+                            break;
+                        case localStorage.getItem('M2'): //M
+                            description = "LIMPIAR VENTILADOR - LIMPIAR LENTE - CALB. ELECTRODO - AJUSTE CONEXION - REVISAR BOMBA";
+                            break;
+                        case localStorage.getItem('M3'): //M
+                            description = "ALISTAR LLAVE - CHURRUSCO - ESCOBA RECOGEDOR - LONA";
+                            break;
+                        case localStorage.getItem('M4'): //M
+                            description = "QUITAR TAPA SUPERIOR - LIMPIAR LUGAR - LAVAR CON AGUA - Y CHURRUSCO - TAPAR SELLAR";
+                            break;
+                        case localStorage.getItem('M5'): //M
+                            description = "ALISTAR LLAVE TUBOS - ATORNILLADORES - MULTIMETRO - BAYETILLA";
+                            break;
+                        case localStorage.getItem('M6'): //M
+                            description = "LIMPIEZA EXTERNA - AJUSTE TERMNALES - REVISION IMPULSOR - REVISION FILTROS - INSPECCION DE SELLOS MEC.";
+                            break;
+                        case localStorage.getItem('M7'): //M
+                            description = "ALISTAR LLAVE MIXTA - LLAVES TUBOS - GUANTES ANTIFLAMA";
+                            break;
+                        case localStorage.getItem('M9'): //M
+                            description = "DRENAR TANQUE - CONDENSADOS - ABRIR VALVULA PURGAS - REPONER SISTEMA";
+                            break;
+                        case localStorage.getItem('M10'): //M
+                            description = "ALISTAR LLAVE MIXTA - EXPANSIVA - ATORNILLADORES PALA Y ESTRELLA";
+                            break;
+                        case localStorage.getItem('M11'): //M
+                            description = "AJUSTAR PERNOS - COMPLETAR TODA LA TORNILLERIA - AJUSTAR ACOPLES - AJUSTAR PUNTOS";
+                            break;
+                        case localStorage.getItem('M12'): //M
+                            description = "ALISTAR MULTIMETROS - ATORNILLADORES - LIMPIADOR ELECTRICO";
+                            break;
+                        case localStorage.getItem('M13'): //M
+                            description = "DESENERGIZAR RED - AJUSTAR CONEXION - REVISAR TIERRAS - REVISAR ALIMENTACION - ENERGIZAR TOMAR CONSUMO";
+                    }
+
+
+                    return description;
+
+
+
+                }
 
                 // --------------------------------------------------------------------------------------------------------------------
                 // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY ID
-                function observerByID(id) {
+                // --------------------------------------------------------------------------------------------------------------------
+                function observerByID(id, flag) {
 
                     getElementValue(id); // almacena el valor actual del elemento
 
@@ -354,7 +622,23 @@
                                         const message = get_Message(String(id));
                                         const count = get_Count(String(id));
 
-                                        post_data(name, count, message);
+                                        if (flag === "flag_Fail") {
+
+                                            post_data_fails(name, count, message);
+
+                                        }
+
+                                        if (flag === "flag_Mantto") {
+
+                                            const event = get_Event(String(id));
+                                            const description = get_Description(String(id));
+
+                                            post_data_mantto(name, count, message, event, description);
+
+                                        }
+
+
+
 
                                     }
 
@@ -367,8 +651,9 @@
                     observer.observe(elementDOM, config);
 
                 }
-
+                // --------------------------------------------------------------------------------------------------------------------
                 // funcion para OBSERVAR cambios en los atributos del elementoDOM - BY Clase
+                // --------------------------------------------------------------------------------------------------------------------
                 function observerByClass(clase) {
 
 
@@ -401,10 +686,7 @@
                                     const name = get_Name(String(clase));
                                     const message = get_Message(String(clase));
 
-
-                                    post_data(name, mutation.target.placeholder, message);
-
-
+                                    post_data_fails(name, mutation.target.placeholder, message);
 
                                 }
 
@@ -417,18 +699,47 @@
                 }
 
                 // -----------------------------------------------------------------------------------------------------------------
-                // envia los datos al DB
-                function post_data(name, value, message) {
+                // envia los datos al DB - Fallas
+                // -----------------------------------------------------------------------------------------------------------------
+                function post_data_fails(name, value, message) { // POST
 
 
                     const params = {
                         name: name,
                         count: value,
-                        message: message
+                        message: message,
+                        source: "LWE" // fuente
                     }
 
                     var http = new XMLHttpRequest();
-                    http.open("POST", "http://localhost/ucentral-API/fails");
+                    // http.open("POST", "http://localhost/ucentral-API/fails"); // **Pruebas Locales
+                    http.open("POST", "http://www.absoftwaregroup.com/platform/ucentral-API/fails"); // Hosting
+                    http.setRequestHeader('Content-type', 'application/json');
+                    http.setRequestHeader('Authorization', 'Basic NzBlYzZmYTRkNmVlMmEyZWFlZDRhODA5NmFiYTJlYWE6M2NlODBmZDA3ZGI2ZTRjYzcyZDE3NDQ5YWIxMzllYjU=');
+                    http.send(JSON.stringify(params));
+                    // http.onload = function() {                        
+                    //     alert(http.responseText)
+                    // }                   
+
+                }
+                // -----------------------------------------------------------------------------------------------------------------
+                // envia los datos al DB - Matenimientos
+                // -----------------------------------------------------------------------------------------------------------------
+                function post_data_mantto(name, value, message, event, description) { // POST
+
+
+                    const params = {
+                        name: name,
+                        count: value,
+                        message: message,
+                        source: "LWE", // fuente
+                        event: event,
+                        description: description
+                    }
+
+                    var http = new XMLHttpRequest();
+                    // http.open("POST", "http://localhost/ucentral-API/mantto"); // **Pruebas Locales
+                    http.open("POST", "http://www.absoftwaregroup.com/platform/ucentral-API/mantto"); // Hosting
                     http.setRequestHeader('Content-type', 'application/json');
                     http.setRequestHeader('Authorization', 'Basic NzBlYzZmYTRkNmVlMmEyZWFlZDRhODA5NmFiYTJlYWE6M2NlODBmZDA3ZGI2ZTRjYzcyZDE3NDQ5YWIxMzllYjU=');
                     http.send(JSON.stringify(params));
@@ -450,9 +761,6 @@
 
 
                 /*
-                inputVal invalid4320bf80b4d7fc283cc8
-    
-
                     var oRequest = new DBRequest(document.getElementById(id));
                     console.log("AQUI oRequest: ", oRequest);
                     console.log("AQUI oRequest.m_oSrcElement: ", oRequest.m_oSrcElement);
@@ -460,6 +768,7 @@
 
                 */
             </script>
+
 
 
 

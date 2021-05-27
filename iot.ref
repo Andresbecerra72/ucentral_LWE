@@ -1,10 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TagRef>
     <PageRefs>
-        <PageVm page="page_1"/>
         <PageVm page="main">
-            <TagComp compId="466eb7bb451ffec96cfe" tagId="Local Device,Local Device,Local Device,Local Device,Local Device,Local Device"/>
-            <TagComp compId="4908b88666475fb8a8a5" tagId="Local Device,Local Device"/>
+            <TagComp compId="437c9a6bbd1531e9a931" tagId="ucentral"/>
+            <TagComp compId="4c81a540499d60146cce" tagId="ucentral"/>
+            <TagComp compId="45ff9e5a65e00b0e03e3" tagId="ucentral"/>
+            <TagComp compId="4a6e83cc8a4ba228468e" tagId="ucentral"/>
+            <TagComp compId="475c95e884d6df355dc7" tagId="ucentral"/>
+            <TagComp compId="4082be150733ee85b10d" tagId="ucentral"/>
+            <TagComp compId="4908b88666475fb8a8a5" tagId="ucentral,ucentral"/>
+            <TagComp compId="4d229ef046d07ba9f3ed" tagId="ucentral"/>
+            <TagComp compId="44a0bf2f447694e80c1c" tagId="ucentral"/>
+            <TagComp compId="4b55be310a80bcf51341" tagId="ucentral"/>
+            <TagComp compId="4a5591e17449bf761a9c" tagId="ucentral"/>
+            <TagComp compId="4bea95e751cee2b2c2e3" tagId="ucentral"/>
+            <TagComp compId="4da790eb47833e346b9f" tagId="ucentral"/>
+            <TagComp compId="447b8b9e416b759a7305" tagId="ucentral"/>
+            <TagComp compId="4718847da478a617ee08" tagId="ucentral"/>
+            <TagComp compId="426787bf0729490bfd86" tagId="ucentral"/>
+            <TagComp compId="485780a5161d9459450b" tagId="ucentral"/>
+            <TagComp compId="461282ada40a7b641dc2" tagId="ucentral"/>
+            <TagComp compId="4ddb9a597b87c042f5da" tagId="ucentral"/>
+            <TagComp compId="4708a4abecdbc897984f" tagId="ucentral"/>
+            <TagComp compId="4a359dbbbc12cc382620" tagId="ucentral"/>
+            <TagComp compId="466eb7bb451ffec96cfe" tagId="ucentral,ucentral,ucentral,ucentral,ucentral,ucentral"/>
+            <TagComp compId="435d96d44be859ded7b5" tagId="ucentral"/>
+            <TagComp compId="43fb8395952c7505804a" tagId="ucentral"/>
+            <TagComp compId="4c81811cf604a3536a3a" tagId="ucentral"/>
+            <TagComp compId="4da0bbcba9149da569ce" tagId="ucentral"/>
+            <TagComp compId="4e85a88d855e01826501" tagId="ucentral"/>
+            <TagComp compId="4936a1f028a1f0bc1c8b" tagId="ucentral"/>
+            <TagComp compId="4c418fb6a15e3ef58a04" tagId="ucentral"/>
+            <TagComp compId="481cad6ae20762e72da0" tagId="ucentral"/>
+            <TagComp compId="469dbb5fc062644e831b" tagId="ucentral"/>
+            <TagComp compId="4bc89d43d32f37d912e7" tagId="ucentral"/>
+            <TagComp compId="4250a64755a174c8c9a8" tagId="ucentral"/>
+            <TagComp compId="482b846ff9d626627259" tagId="ucentral"/>
+            <TagComp compId="4320bf80b4d7fc283cc8" tagId="ucentral"/>
+            <TagComp compId="4eaabc9a0af9607d475d" tagId="ucentral"/>
+            <TagComp compId="4908b2be785474a8205c" tagId="ucentral"/>
+            <TagComp compId="48d595fcac723d979cc6" tagId="ucentral"/>
+            <TagComp compId="4331a384c111d362bb39" tagId="ucentral"/>
+            <TagComp compId="41729b40808ce6a1c093" tagId="ucentral"/>
+            <TagComp compId="4a698b42a5771c24d4cd" tagId="ucentral"/>
+            <TagComp compId="47da9767f6993717e110" tagId="ucentral"/>
+            <TagComp compId="4adab606067fbae9e8d9" tagId="ucentral"/>
+            <TagComp compId="488988fbb9b2b749750b" tagId="ucentral"/>
+            <TagComp compId="4da2a582a2efceb83a7b" tagId="ucentral"/>
+            <TagComp compId="421d98fea58d69c3f7bd" tagId="ucentral"/>
+            <TagComp compId="412c9a7efd25b000ab10" tagId="ucentral"/>
+            <TagComp compId="4a8db1ec00955c1e7efd" tagId="ucentral"/>
+            <TagComp compId="412fb50e3bcc940bc904" tagId="ucentral"/>
+            <TagComp compId="422fa61856a36c275a30" tagId="ucentral"/>
+            <TagComp compId="4e209043e78d615c62e5" tagId="ucentral"/>
+            <TagComp compId="44d3bfa0dd0ba3ce5809" tagId="ucentral"/>
+            <TagComp compId="4cb48140ac09ef7ffa44" tagId="ucentral"/>
+            <TagComp compId="4dd695d26172552d7e66" tagId="ucentral"/>
+            <TagComp compId="405799b3d0a466711d7e" tagId="ucentral"/>
+            <TagComp compId="49e588730bdaefd700c5" tagId="ucentral"/>
+            <TagComp compId="49b0b9e15e7b5e6f4098" tagId="ucentral"/>
+            <TagComp compId="41f7a20f701842fc2628" tagId="ucentral"/>
+            <TagComp compId="437f9cffabeba7718627" tagId="ucentral"/>
+            <TagComp compId="49fea60ad4725eee2889" tagId="ucentral"/>
+            <TagComp compId="47cea3752ee11ae330c6" tagId="ucentral"/>
+            <TagComp compId="4043b0c9a2bd8593a732" tagId="ucentral"/>
+            <TagComp compId="44dc89a1ee95d3d12ff2" tagId="ucentral"/>
+            <TagComp compId="4bdda1241015372b881b" tagId="ucentral"/>
+            <TagComp compId="4ba9b6d0de697fcf2deb" tagId="ucentral"/>
+            <TagComp compId="4afdad5ba96aaa046274" tagId="ucentral"/>
+            <TagComp compId="4081a44186977366eb75" tagId="ucentral"/>
+            <TagComp compId="40d4b046513005590660" tagId="ucentral"/>
+            <TagComp compId="44f18f2997253edcd419" tagId="ucentral"/>
+            <TagComp compId="45eba27b268a2ef05135" tagId="ucentral"/>
+            <TagComp compId="489da4bdd273cd0ef851" tagId="ucentral"/>
+            <TagComp compId="4a46b7fc86f93863e448" tagId="ucentral"/>
+            <TagComp compId="485486eb5f017f6c8938" tagId="ucentral"/>
+            <TagComp compId="407c9c0d52a6ab24cd38" tagId="ucentral"/>
+            <TagComp compId="4f498e1d06007c6b3315" tagId="ucentral"/>
+            <TagComp compId="4562ac76632304a23c30" tagId="ucentral"/>
         </PageVm>
     </PageRefs>
 </TagRef>
